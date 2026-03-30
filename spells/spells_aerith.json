@@ -1,0 +1,352 @@
+[
+	{
+		"title": "Absorb Elements",
+		"castingTime": "Reacción",
+		"range": "Self",
+		"components": "S",
+		"duration": "1 ronda",
+		"text": "Ganás resistencia al tipo de daño que te afectó hasta el inicio de tu próximo turno (acid, cold, fire, lightning o thunder). La primera vez que impactás con un ataque <b>melee</b> en tu siguiente turno, el objetivo recibe <b>1d6</b> de daño adicional de ese tipo.\n<b>At Higher Levels:</b> El daño extra aumenta en <b>1d6</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Abjuration",
+		"level": "1"
+	},
+	{
+		"title": "Alarm",
+		"castingTime": "1 minuto (Ritual)",
+		"range": "30 pies",
+		"components": "V, S, M",
+		"materials": "Una campanita y un trozo de hilo de plata fino",
+		"duration": "8 horas",
+		"text": "Protegés una puerta, ventana o un área de hasta un cubo de <b>20 pies</b>. Elegís si la alarma es mental o audible y designás criaturas que no la activan. La alarma se dispara cuando una criatura Diminuta o mayor toca o entra al área protegida. Una alarma mental te alerta con un ping en tu mente si estás dentro de <b>1 milla</b> del área protegida. Este ping te despierta si estás durmiendo. Una alarma audible produce el sonido de una campana durante 10 segundos en un radio de <b>60 pies</b>.",
+		"school": "Abjuration",
+		"level": "1",
+		"fontSize": "10"
+	},
+	{
+		"title": "Arcane Weapon (UA)",
+		"castingTime": "Acción bonus",
+		"range": "Self",
+		"components": "V, S",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Canalizás energía arcana en un arma simple o marcial que estés sosteniendo y elegís un tipo de daño: <b>acid</b>, <b>cold</b>, <b>fire</b>, <b>lightning</b>, <b>poison</b> o <b>thunder</b>. Hasta que termine, el arma hace <b>+1d6</b> de ese tipo de daño en cada golpe; si no era mágica, cuenta como mágica durante la duración. Como acción bonus, podés cambiar el tipo de daño entre las opciones.\n<b>At Higher Levels:</b> Con <b>slot</b> de nivel <b>3+</b> podés mantener la concentración hasta <b>8 horas</b>.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Catapult",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "S",
+		"duration": "Instantáneo",
+		"text": "Elegís un objeto de <b>1 a 5 lb</b> que no esté siendo llevado ni vestido y lo impulsás en línea recta hasta <b>90 pies</b> en la dirección que quieras, parando antes si golpea contra una superficie sólida. Si golpearía a una criatura, hace TS de <b>DEX</b>; con fallo, el objeto impacta y el objeto y lo impactado reciben <b>3d8</b> de daño contundente (el objeto se detiene). \n<b>At Higher Levels:</b> Por cada nivel de <b>slot</b> por encima de 1, el peso máximo del/los objeto(s) aumenta en <b>5 lb</b> y el daño aumenta en <b>1d8</b>.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Cure Wounds",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Una criatura que toqués recupera <b>1d8</b> hit points + tu modificador de hechizo. El hechizo no tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>At Higher Levels:</b> La curación aumenta en <b>1d8</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Evocation",
+		"level": "1"
+	},
+	{
+		"title": "Detect Magic",
+		"castingTime": "Acción (Ritual)",
+		"range": "Self",
+		"components": "V, S",
+		"duration": "Concentración, hasta 10 minutos",
+		"text": "Percibís la presencia de magia dentro de <b>30 pies</b> y ves un aura tenue alrededor de cualquier criatura u objeto visible que la posea; sabés su escuela de magia si la hay. El hechizo atraviesa la mayoría de barreras, pero es bloqueado por <b>1 pie</b> de piedra, <b>1 pulgada</b> de metal común, una lámina delgada de plomo o <b>3 pies</b> de madera o tierra.",
+		"school": "Divination",
+		"level": "1"
+	},
+	{
+		"title": "Disguise Self",
+		"castingTime": "Acción",
+		"range": "Self",
+		"components": "V, S",
+		"duration": "1 hora",
+		"text": "Cambiás tu apariencia (altura hasta <b>1 pie</b> de diferencia, diferente contextura corporal, ropa, armadura y equipo). Las interacciones físicas pueden revelar la ilusión. Una criatura puede usar su acción para inspeccionarte y hacer una prueba de <b>INT</b> (Investigation) contra tu spell <b>DC</b> para ver a través.",
+		"school": "Illusion",
+		"level": "1"
+	},
+	{
+		"title": "Expeditious Retreat",
+		"castingTime": "Acción bonus",
+		"range": "Self",
+		"components": "V, S",
+		"duration": "Concentración, hasta 10 minutos",
+		"text": "Podés usar <b>Dash</b> como acción bonus en cada uno de tus turnos mientras dure el hechizo.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Faerie Fire",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Iluminás criaturas u objetos en un cubo de <b>20 pies</b> dentro de rango (salvación de <b>DEX</b>). Las criaturas y objetos afectados emiten luz tenue en un radio de <b>10 pies</b>. Los ataques contra objetivos afectados tienen ventaja y no pueden beneficiarse de estar <b>invisible</b> mientras dure.",
+		"school": "Evocation",
+		"level": "1"
+	},
+	{
+		"title": "False Life",
+		"castingTime": "Acción",
+		"range": "Self",
+		"components": "V, S, M",
+		"materials": "Una pequeña cantidad de alcohol o licor destilado",
+		"duration": "1 hora",
+		"text": "Te reforzás con una seudovida nigromántica y ganás <b>1d4 + 4</b> HP temporales por la duración.\n<b>At Higher Levels:</b> Ganás <b>+5</b> HP temporales adicionales por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Necromancy",
+		"level": "1"
+	},
+	{
+		"title": "Feather Fall",
+		"castingTime": "Reacción (cuando vos o una criatura a <b>60 pies</b> cae)",
+		"range": "60 pies",
+		"components": "V, M",
+		"materials": "Una pluma pequeña o un trozo de plumón",
+		"duration": "1 minuto",
+		"text": "Elegís hasta <b>5</b> criaturas que estén cayendo. Su velocidad de caída se reduce a <b>60 pies</b> por asalto hasta que termine el hechizo. Si una criatura aterriza antes de que termine, no recibe daño por caída, puede caer de pie y el hechizo termina para esa criatura.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Grease",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S, M",
+		"materials": "Un poco de grasa (manteca o tocino)",
+		"duration": "1 minuto",
+		"text": "Cubres un cuadrado de <b>10 pies</b> centrado en un punto en rango con grasa resbalosa; es terreno difícil. Cuando aparece, las criaturas en el área hacen salvación de <b>DEX</b> o quedan <b>derribadas</b>. Una criatura que entra o termina su turno en el área debe superar otra salvación de <b>DEX</b> o queda <b>derribada</b>.",
+		"school": "Conjuration",
+		"level": "1"
+	},
+	{
+		"title": "Identify",
+		"castingTime": "1 minuto (Ritual)",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Una perla de al menos 100 gp y una pluma de búho",
+		"duration": "Instantáneo",
+		"text": "Tocás un objeto durante la conjuración: aprendés si es mágico, sus propiedades y cómo usarlas, si requiere sintonización, cuántas cargas le quedan (si las tuviera) y qué hechizos lo afectan. Si el objeto fue creado por un hechizo, sabés por cuál fue. Si en cambio tocás una criatura, sabés qué hechizos la afectan actualmente.",
+		"school": "Divination",
+		"level": "1"
+	},
+	{
+		"title": "Jump",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "La pata trasera de un saltamontes",
+		"duration": "1 minuto",
+		"text": "La distancia de salto del objetivo se triplica durante <b>1 minuto</b>.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Longstrider",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Un pellizco de tierra",
+		"duration": "1 hora",
+		"text": "La velocidad del objetivo aumenta en <b>10 pies</b> durante <b>1 hora</b>.\n<b>At Higher Levels:</b> Podés afectar a una criatura adicional por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Purify Food and Drink",
+		"castingTime": "Acción (Ritual)",
+		"range": "10 pies",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Purificás comida y bebida no mágicas dentro de un radio de <b>5 pies</b> centrado en un punto en rango; quita venenos y enfermedades.",
+		"school": "Transmutation",
+		"level": "1"
+	},
+	{
+		"title": "Sanctuary",
+		"castingTime": "Acción bonus",
+		"range": "30 pies",
+		"components": "V, S, M",
+		"materials": "Un pequeño espejo de plata",
+		"duration": "1 minuto",
+		"text": "Protegés a una criatura. Cualquier criatura que la ataque con un arma o un hechizo, primero hace una tirada de salvación de <b>WIS</b>; con fallo, debe elegir otro objetivo o perder el ataque/hechizo. La criatura no está protegida contra daño de area, como una explosión. Si el objetivo ataca o lanza un hechizo que afecte a un enemigo, el efecto termina.",
+		"school": "Abjuration",
+		"level": "1"
+	},
+	{
+		"title": "Snare",
+		"castingTime": "1 minuto",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Una soga o cuerda de <b>30 pies</b>, que se consume",
+		"duration": "Hasta disipar o detonar",
+		"text": "Trazás un círculo de <b>5 pies</b> de radio en una superficie plana dentro de tu alcance; se vuelve una trampa casi invisible (para detectarla: <b>INT</b> (Investigation) contra tu spell DC). Se activa cuando una criatura Pequeña o mayor entra en el área: tirada de salvación de <b>DEX</b> o cae <b>derribada</b> y queda <b>restringida</b>, suspendida a <b>3 pies</b> del suelo. La criatura <b>restringida</b> puede repetir la salvación de <b>DEX</b> con desventaja al final de sus turnos; otra criatura puede usar su acción para una prueba de <b>INT</b> (Arcana) y liberarla en caso de éxito.",
+		"school": "Abjuration",
+		"level": "1"
+	},
+	{
+		"title": "Tasha’s Caustic Brew",
+		"castingTime": "Acción",
+		"range": "Self (línea de 30 pies por 5 pies)",
+		"components": "V, S, M",
+		"materials": "Un poco de comida podrida",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Un chorro de ácido sale de vos en una línea de <b>30 pies × 5 pies</b>, en la dirección que quieras. Las criaturas en la línea hacen salvación de <b>DEX</b> o quedan cubiertas de ácido por la duración o hasta que una criatura use su acción para raspar o lavar el ácido. Una criatura cubierta recibe <b>2d4</b> de daño de ácido al inicio de cada uno de sus turnos.\n<b>At Higher Levels:</b> El daño aumenta en <b>+2d4</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Evocation",
+		"level": "1"
+	},
+	{
+		"title": "Aid",
+		"castingTime": "Acción",
+		"range": "30 pies",
+		"components": "V, S, M",
+		"materials": "Una tira de tela blanca",
+		"duration": "8 horas",
+		"text": "Hasta <b>3</b> criaturas que elijas aumentan su HP máximo y actual en <b>5</b> mientras dure.\n<b>At Higher Levels:</b> Ambos valores aumentan en <b>5</b> por cada nivel de <b>slot</b> por encima de 2.",
+		"school": "Abjuration",
+		"level": "2"
+	},
+	{
+		"title": "Air Bubble",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Creas un globo espectral lleno de aire fresco alrededor de la cabeza de una criatura dispuesta que puedas ver dentro del alcance. Si la criatura tiene más de una cabeza, el globo de aire aparece solo alrededor de una de ellas.\n<b>At Higher Levels:</b> Puedes crear dos globos adicionales de aire fresco por cada nivel de <b>slot</b> por encima de 2.",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Arcane Lock",
+		"castingTime": "Acción",
+		"range": "Toque",
+		"components": "V, S, M",
+		"materials": "Polvo de oro con un valor de al menos <b>25 gp</b>, que se consumen",
+		"duration": "Hasta ser disipado",
+		"text": "Tocás una puerta, ventana, portón, cofre u otra entrada cerrada, y queda bloqueada durante la duración. Vos y las criaturas que designes al lanzar este hechizo pueden abrir el objeto normalmente. También podés establecer una contraseña que, al ser pronunciada a <b>5 pies</b> del objeto, suprime este hechizo por <b>1 minuto</b>. De lo contrario, es infranqueable hasta que sea forzado, o el hechizo disipado o suprimido. Lanzar <i>Knock</i> sobre el objeto suprime <i>Arcane Lock</i> por <b>10 minutos</b>. Mientras esté afectado por este hechizo, el objeto es más difícil de forzar o abrir: la DC para romperlo o forzar sus cerraduras aumenta en <b>10</b>.",
+		"school": "Abjuration",
+		"level": "2"
+	},
+	{
+		"title": "Blur",
+		"castingTime": "Acción",
+		"range": "Self",
+		"components": "V",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Tu cuerpo se vuelve borroso, oscilante y tembloroso para quienes pueden verte. Durante la duración, cualquier criatura tiene <b>desventaja</b> en las tiradas de ataque contra vos. Un atacante es inmune a este efecto si no depende de la vista (como con visión ciega) o puede ver a través de ilusiones (como con truesight).",
+		"school": "Illusion",
+		"level": "2"
+	},
+	{
+		"title": "Continual Flame",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Polvo de rubí por valor de 50 gp, que se consume",
+		"duration": "Hasta disipar",
+		"text": "Encendés una llama ilusoria en un objeto que toqués. Emite luz como una antorcha, no produce calor ni consume oxígeno. Puede cubrirse u ocultarse, pero no puede ser apagada por medios no mágicos.",
+		"school": "Evocation",
+		"level": "2"
+	},
+	{
+		"title": "Darkvision",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Una pizca de zanahoria seca o una ágata",
+		"duration": "8 horas",
+		"text": "El objetivo gana visión en la oscuridad a <b>60 pies</b>: ve en oscuridad como en luz tenue y en luz tenue como luz brillante, sin distinguir colores (solo grises).",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Enhance Ability",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Pelo, pluma o cola del animal simbólico",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Otorgás la mejora temporal de tu elección:\n• <b>Bear’s Endurance:</b>: ventaja en <b>CON</b> y <b>2d6</b> HP temporales.\n• <b>Bull’s Strength:</b>: ventaja en <b>STR</b> y capacidad de carga duplicada.\n• <b>Cat’s Grace:</b>: ventaja en <b>DEX</b>; caídas de hasta <b>20 pies</b> no causan daño si no estás incapacitado.\n• <b>Eagle’s Splendor:</b>: ventaja en <b>CHA</b>.\n• <b>Fox’s Cunning:</b>: ventaja en <b>INT</b>.\n• <b>Owl’s Wisdom:</b>: ventaja en <b>WIS</b>.\n<b>At Higher Levels:</b> Afectás a una criatura adicional por cada nivel de <b>slot</b> por encima de 2.",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Enlarge/Reduce",
+		"castingTime": "Acción",
+		"range": "30 pies",
+		"components": "V, S, M",
+		"materials": "Un pellizco de polvo de hierro",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Agranda o achica una criatura u objeto. Si el objetivo no está dispuesto, hace una tirada de salvación de <b>CON</b>; con éxito, el hechizo no tiene efecto. Si es una criatura, todo lo que viste y lleva cambia de tamaño con ella; lo que se le caiga vuelve a la normalidad al instante.\n- <b>Enlarge:</b> aumenta una categoría de tamaño; su peso se multiplica por ocho; ventaja en <b>STR</b>, y sus ataques hacen +<b>1d4</b> daño.\n- <b>Reduce:</b> disminuye una categoría de tamaño; su peso se reduce a un octavo; desventaja en <b>STR</b>, y sus ataques hacen –<b>1d4</b> daño.",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Heat Metal",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S, M",
+		"materials": "Un pedazo de hierro y una llama",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Un objeto de metal, como un arma o armadura, se calienta al rojo vivo. Si una criatura lo porta o viste, recibe <b>2d8</b> de daño de fuego; tirada de salvación de <b>CON</b> o debe soltarlo si puede. Si no lo suelta o lo viste, tiene desventaja en tiradas de ataque y pruebas de habilidad hasta el inicio de tu próximo turno. Como acción bonus, podés repetir el daño en turnos posteriores.\n<b>At Higher Levels:</b> El daño aumenta en <b>1d8</b> por cada nivel de <b>slot</b> por encima de 2.",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Invisibility",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Una pestaña encerrada en goma arábiga",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Una criatura que toques se vuelve invisible hasta que termine el hechizo. Todo lo que el objetivo lleve puesto o cargue también es invisible mientras permanezca en su persona. El hechizo termina para un objetivo que ataque o lance un hechizo.\n<b>At Higher Levels:</b> Podés elegir una criatura adicional  por cada nivel de <b>slot</b> por encima de 2.",
+		"school": "Illusion",
+		"level": "2"
+	},
+	{
+		"title": "Kinetic Jaunt",
+		"castingTime": "Acción adicional",
+		"range": "Self",
+		"components": "S",
+		"materials": "",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Imbuís tu movimiento con pasos de danza mágicos, otorgándote los siguientes beneficios durante la duración:\n• Tu velocidad de movimiento aumenta en <b>10 pies,\n• No provocás ataques de oportunidad.\n• Podés moverte a través del espacio de otra criatura, y no cuenta como terreno difícil. Si terminás tu turno en el espacio de otra criatura, sos desplazado al último espacio desocupado que ocupaste y sufrís <b>1d8</b> de daño de fuerza.",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Lesser Restoration",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Terminás una enfermedad o una de las siguientes condiciones que afecte al objetivo: <b>cegado</b>, <b>ensordecido</b>, <b>paralizado</b> o <b>envenenado</b>.",
+		"school": "Abjuration",
+		"level": "2"
+	},
+	{
+		"title": "Protection from Poison",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "1 hora",
+		"text": "Neutralizás un veneno que afecte al objetivo. Si hay más de uno, neutralizás uno que conozcas o uno al azar. Además, tiene ventaja en tiradas de salvación contra veneno y resistencia al daño por veneno por <b>1 hora</b>.",
+		"school": "Abjuration",
+		"level": "2"
+	},
+	{
+		"title": "Skywrite",
+		"castingTime": "10 minutos (Ritual)",
+		"range": "Vista",
+		"components": "V, S",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Escribís hasta <b>10 palabras</b> en el cielo, semejantes a nubes, que permanecen por la duración y son visibles a distancia. Se dispersan con vientos fuertes.",
+		"school": "Transmutation",
+		"level": "2"
+	}
+]

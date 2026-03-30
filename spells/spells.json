@@ -1,0 +1,31 @@
+[
+	{
+		"title": "Fey Step",
+		"castingTime": "Acción bonus",
+		"range": "30 pies",
+		"text": "Based on your current season:\n• <b>Autumn.</b> Immediately after you teleport, up to two creatures within 10 feet of you must succeed on a Wisdom saving throw or be **charmed** until the end of your next turn.\n• <b>Winter.</b> One creature within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be <b>frightened</b> of you until the end of your next turn.\n• <b>Spring.</b> You can teleport one willing creature of your choice that you can see within 5 feet of you. The creature teleports to an unoccupied space of your choice within <b>30 feet</b> of you.\n• <b>Summer.</b> Immediately after you teleport, each creature of your choice within 5 feet of you takes **fire damage equal to 2**. You can use this trait <b>2 times</b>, regaining all uses after a <b>long rest</b>."
+	},
+	{
+		"title": "Enhance Ability",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Pelo, pluma o cola del animal simbólico",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Otorgás la mejora temporal de tu elección:\n• <b>Bear’s Endurance:</b>: ventaja en <b>CON</b> y <b>2d6</b> HP temporales.\n• <b>Bull’s Strength:</b>: ventaja en <b>STR</b> y capacidad de carga duplicada.\n• <b>Cat’s Grace:</b>: ventaja en <b>DEX</b>; caídas de hasta <b>20 pies</b> no causan daño si no estás incapacitado.\n• <b>Eagle’s Splendor:</b>: ventaja en <b>CHA</b>.\n• <b>Fox’s Cunning:</b>: ventaja en <b>INT</b>.\n• <b>Owl’s Wisdom:</b>: ventaja en <b>WIS</b>.\n<b>At Higher Levels:</b> Afectás a una criatura adicional por cada nivel de <b>slot</b> por encima de 2.",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Protection from Evil and Good",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S, M",
+		"materials": "Agua bendita o plata y hierro en polvo, que se consume",
+		"duration": "Concentración, hasta 10 minutos",
+		"text": "Una criatura dispuesta queda protegida contra aberrations, celestials, elementals, fey, fiends y <b>undead</b>. Esas criaturas tienen desventaja en tiradas de ataque contra el objetivo. El objetivo no puede ser <b>hechizado</b>, <b>asustado</b> ni poseído por ellas; si ya lo está, tiene ventaja en nuevas tiradas de salvación contra el efecto relevante.",
+		"school": "Abjuration",
+		"level": "1",
+		"fontSize": "10"
+	}
+]

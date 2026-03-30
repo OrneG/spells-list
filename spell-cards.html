@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Spell Cards D&D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oldenburg&family=Quicksand:wght@300..700&display=swap&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dark_mode,light_mode"
+        rel="stylesheet">
+    <style>
+        /* Conversión: 1 mm = 3.779527559 px */
+        :root {
+            --card-w: 240.157px;
+            /* --card-h: 336.614px; */
+            --card-h: 332.598px;
+            --gap: 8px;
+            --pad: 11px;
+            --radius: 12px;
+            --border: 2.2px;
+
+            --fs-sm: 9px;
+            --fs-md: 11px;
+            --fs-lg: 16px;
+
+            --a4-w: 793.701px;
+            --a4-h: 1122.520px;
+            --a4-margin: 36px;
+
+            color-scheme: light dark;
+            --bg: light-dark(#eae5da, #121212);
+            --panel-bg: light-dark(#ffffffbb, #1E1E1E);
+            --btn-bg: light-dark(#f5efe2, #2D2D2D);
+            --btn-hover: light-dark(#f8eaca, #3A3A3A);
+            --btn-primary: #0d9b9b;
+            --btn-primary-hover: rgb(from var(--btn-primary) r g b / .8);
+            --border: var(--btn-primary);
+            --label: #f6f1e7;
+            --paper: #f5efe2;
+            --text: #1E1E1E;
+        }
+
+        :root[data-theme="light"] {
+            color-scheme: light;
+        }
+
+        :root[data-theme="dark"] {
+            color-scheme: dark;
+        }
+
+        @page {
+            size: var(--a4-w) var(--a4-h);
+            margin: var(--a4-margin);
+        }
+
+        .actions,
+        .card,
+        .chip,
+        .footer,
+        .header,
+        .panel,
+        #toggle-theme {
+            display: flex;
+        }
+
+        .actions,
+        .chip,
+        .footer,
+        .header {
+            justify-content: space-between;
+        }
+
+        .box,
+        .mats {
+            font-size: var(--fs-sm);
+        }
+
+        .label,
+        .chip,
+        .level span {
+            font-size: var(--fs-md);
+        }
+
+        input[type=file]::file-selector-button,
+        button,
+        .chip,
+        .label,
+        .title {
+            font-weight: 700;
+        }
+
+        .box,
+        .chip,
+        .mats {
+            padding: 4px 8px;
+        }
+
+        .chip,
+        #toggle-theme {
+            align-items: center;
+        }
+
+        .box,
+        .chip {
+            border: 2px solid var(--accent);
+            border-radius: 8px;
+            background: var(--label);
+        }
+
+        .level,
+        .mats {
+            color: var(--label);
+            background: rgb(from var(--accent) r g b / 80%);
+        }
+
+        .chip,
+        .label {
+            font-variant: small-caps;
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            font-family: "Quicksand", sans-serif;
+            box-sizing: border-box;
+        }
+
+        .panel {
+            flex-direction: column;
+            padding: 12px;
+            background: var(--panel-bg);
+            border-bottom: 1px solid var(--border);
+        }
+
+        textarea {
+            width: 100%;
+            height: 160px;
+            font-family: ui-monospace, Menlo, Consolas, monospace;
+        }
+
+        button,
+        input[type=file]::file-selector-button {
+            padding: .55rem 1rem;
+            border: 1px solid var(--border);
+            background-color: var(--btn-bg);
+            border-radius: 8px;
+            cursor: pointer;
+            color: var(--btn-primary);
+            font-family: inherit;
+
+            &:hover {
+                background-color: var(--btn-hover);
+            }
+        }
+
+        input[type=file]::file-selector-button:hover {
+            background-color: var(--btn-hover);
+        }
+
+        #toggle-theme {
+            gap: 8px;
+        }
+
+        #generate,
+        #print {
+            background-color: var(--btn-primary);
+            color: var(--panel-bg);
+
+
+            &:hover {
+                background-color: var(--btn-primary-hover);
+            }
+        }
+
+        textarea, input {
+            margin: 16px 0;;
+        }
+
+        @media print {
+            .panel {
+                display: none;
+            }
+        }
+
+        .sheet {
+            width: var(--a4-w);
+            min-height: var(--a4-h);
+            margin: 0 auto 10px;
+            display: grid;
+            grid-template-columns: repeat(3, var(--card-w));
+            grid-auto-rows: var(--card-h);
+            gap: var(--gap);
+            justify-content: center;
+            align-content: center;
+            background: #fff;
+            color: var(--text);
+        }
+
+        @media screen {
+            .sheet {
+                outline: 1px dashed rgba(0, 0, 0, .25);
+            }
+        }
+
+        .card {
+            color-scheme: light;
+            width: var(--card-w);
+            height: var(--card-h);
+            background: var(--paper);
+            border: var(--border) solid var(--accent, #2b2b2b);
+            border-radius: var(--radius);
+            padding: var(--pad);
+            box-sizing: border-box;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::after {
+            content: "";
+            position: absolute;
+            inset: calc(var(--pad) - 6px);
+            border: 2px solid rgba(0, 0, 0, .25);
+            border-radius: calc(var(--radius) - 4px);
+            pointer-events: none;
+            box-sizing: border-box;
+        }
+
+        .title {
+            margin: 0 0 4px 0;
+            text-align: center;
+            font-size: var(--fs-lg);
+            color: var(--accent, #000);
+        }
+
+        .meta {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px;
+            margin-bottom: 4px;
+        }
+
+        .box {
+            line-height: 1.2;
+        }
+
+        .label {
+            display: block;
+            opacity: .8;
+            margin-bottom: 2px;
+        }
+
+        .mats {
+            border-radius: 4px;
+            margin: 0 0 4px 0;
+            min-height: 12px;
+        }
+
+        .text {
+            white-space: pre-wrap;
+            flex: 1;
+        }
+
+        .footer {
+            gap: 6px;
+        }
+
+        .level {
+            width: 60px;
+            font-size: var(--fs-lg);
+            border: none;
+        }
+
+        .default {
+            --accent: #505050;
+        }
+
+        .school-abjuration {
+            --accent: #1e88e5;
+        }
+
+        .school-conjuration {
+            --accent: #d8a80c;
+        }
+
+        .school-divination {
+            --accent: #a0a0a0;
+        }
+
+        .school-enchantment {
+            --accent: #e71175;
+        }
+
+        .school-evocation {
+            --accent: #e21212;
+        }
+
+        .school-illusion {
+            --accent: #7e57c2;
+        }
+
+        .school-necromancy {
+            --accent: #388e3c;
+        }
+
+        .school-transmutation {
+            --accent: #cd7f32;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="panel">
+        <section class="header">
+            <p><strong>Impresión:</strong> A4, orientación vertical, <u>escala 100 %</u> (sin “ajustar a página”). Pegá tu
+                JSON con la siguiente estructura o subí tu archivo y tocá Generar.</p>
+            <button id="toggle-theme"><span class="material-symbols-outlined">dark_mode</span> Modo oscuro</button>
+        </section>
+        <textarea id="json-input">[
+            { "title":"Magic Missile","castingTime":"1 action","range":"120 ft.","components":"V, S","duration":"Instantaneous", "text":"You create three glowing darts of magical force. Each dart automatically hits a creature you can see within range.","school":"Evocation","level":"1" },
+            { "title":"Mage Armor","castingTime":"1 action","range":"Touch","components":"V, S, M","duration":"8 hours", "materials": "A piece of cured leather", "text":"You touch a willing creature not wearing armor. The target’s AC becomes 13 + its Dexterity modifier.","school":"Abjuration","level":"1" },
+            { "title":"Misty Step","castingTime":"1 bonus action","range":"Self","components":"V","duration":"Instantaneous", "text":"Teleport up to 30 ft.","school":"Transmutation","level":"2" }]
+        </textarea>
+        ó
+        <input type="file" id="json-file" accept=".json">
+        <section class="actions">
+            <button id="generate">Generar</button>
+            <button id="print">Imprimir / Guardar PDF</button>
+        </section>
+    </section>
+
+    <div id="root"></div>
+
+    <script>
+        function slugify(s) {
+            return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+        }
+
+        function createCard(spell = {}) {
+            const {
+                title = 'Sin título', castingTime = '—', range = '—', components = '',
+                duration = '', materials = '', text = 'Descripción…', school = '', level = '', fontSize = ''
+            } = spell;
+            const card = document.createElement('article');
+            card.className = 'card ' + (school ? 'school-' + slugify(school) : 'default');
+            card.innerHTML = `
+            <h2 class='title'>${title}</h2>
+            <section class='meta'>
+                ${castingTime ? `<div class='box'><span class='label'>Casting Time</span>${castingTime}</div>` : ''}
+                ${range ? `<div class='box'><span class='label'>Range</span>${range}</div>` : ''}
+                ${components ? `<div class='box'><span class='label'>Components</span>${components}</div>` : ''}
+                ${duration ? `<div class='box'><span class='label'>Duration</span>${duration}</div>` : ''}
+            </section>
+            ${materials ? `<section class='mats'>${materials}</section>` : ''}
+            <main class='text'>${text}</main>
+            ${school ? `<footer class='footer'>
+                <div class='chip'>${school}</div>
+                <div class='chip level'><span>Level</span>${level}</div>
+            </footer>` : ''}`;
+
+            const textEl = card.querySelector('.text');
+            if (fontSize) {
+                textEl.style.fontSize = `${fontSize}px`;{}
+            } else if (text.length > 380) {
+                textEl.style.fontSize = '9px';
+            } else {
+                textEl.style.fontSize = '11px';
+            }
+
+            return card;
+        }
+
+        function renderFromJSON(arr) {
+            const root = document.getElementById('root');
+            root.innerHTML = '';
+            const chunk = 9;
+            for (let i = 0; i < arr.length; i += chunk) {
+                const sheet = document.createElement('section');
+                sheet.className = 'sheet';
+                arr.slice(i, i + chunk).forEach(spell => sheet.appendChild(createCard(spell)));
+                root.appendChild(sheet);
+            }
+        }
+
+        document.getElementById('generate').addEventListener('click', () => {
+            try {
+                const data = JSON.parse(document.getElementById('json-input').value.trim());
+                if (!Array.isArray(data)) throw new Error('El JSON debe ser un array []');
+                renderFromJSON(data);
+            } catch (err) {
+                alert(`JSON inválido: ${err.message}`);
+            }
+        });
+
+        document.getElementById('json-file').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                document.getElementById('json-input').value = event.target.result;
+            };
+            reader.readAsText(file);
+        });
+
+        document.getElementById('print').addEventListener('click', () => {
+            window.print();
+        });
+
+        const btn = document.getElementById('toggle-theme');
+        const root = document.documentElement;
+
+        function getPreferredTheme() {
+            if (root.dataset.theme) {
+                return root.dataset.theme;
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        function applyTheme(theme) {
+            root.dataset.theme = theme;
+            localStorage.setItem('theme', theme);
+            if (theme === 'dark') {
+                btn.innerHTML = `<span class="material-symbols-outlined">light_mode</span> Cambiar tema`;
+            } else {
+                btn.innerHTML = `<span class="material-symbols-outlined">dark_mode</span> Cambiar tema`;
+            }
+        }
+
+        const saved = localStorage.getItem('theme');
+        applyTheme(saved || getPreferredTheme());
+
+        btn.addEventListener('click', () => {
+            const current = getPreferredTheme();
+            applyTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+    </script>
+
+</body>
+
+</html>
