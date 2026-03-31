@@ -8,20 +8,18 @@
     },
     {
         "title": "Guided Strike",
-        "castingTime": "-",
-        "range": "-",
         "materials": "1 Channel Divinity",
         "text": "Cuando hagas una <b>tirada de ataque</b>, puedes obtener un <b>+10 de bonificación</b>. Lo usas después de ver la tirada, pero antes de saber el resultado."
     },
     {
         "title": "Harness Divine Power",
         "castingTime": "Acción bonus",
-        "range": "-",
         "materials": "1 Channel Divinity",
         "text": "Puedes recuperar un <b>spell slot</b> gastado . El nivel del slot debe ser la mitad de tu proficiency bonus redondeado hacia arriba."
     },
     {
         "title": "Burning Shield of Karzem",
-        "text": "Recibes un <b>+1 al AC</b>, un <b>+1 a las tiradas de ataque</b> y un <b>+1 al daño</b> con cualquier arma de combate cuerpo a cuerpo.\n\nTienes <b>ventaja</b> en las tiradas de iniciativa.\n\nUna vez al día, puedes imponer <b>desventaja</b> a una tirada de ataque hecha por una <b>criatura enemiga</b> contra un <b>aliado</b> que se encuentre a un máximo de <b>30 pies</b> de ti."
+        "text": "Recibes un <b>+1 al AC</b>, un <b>+1 a las tiradas de ataque</b> y un <b>+1 al daño</b> con cualquier arma de combate cuerpo a cuerpo.\n\nTienes <b>ventaja</b> en las tiradas de iniciativa.\n\nUna vez al día, puedes imponer <b>desventaja</b> a una tirada de ataque hecha por una <b>criatura enemiga</b> contra un <b>aliado</b> que se encuentre a un máximo de <b>30 pies</b> de ti.",
+        "object": true
     }
 ]

@@ -39,6 +39,7 @@
             --label: #f6f1e7;
             --paper: #f5efe2;
             --text: #1E1E1E;
+            --card-decoration: rgba(0, 0, 0, .25);
         }
 
         :root[data-theme="light"] {
@@ -173,8 +174,10 @@
             }
         }
 
-        textarea, input {
-            margin: 16px 0;;
+        textarea,
+        input {
+            margin: 16px 0;
+            ;
         }
 
         @media print {
@@ -221,10 +224,14 @@
             content: "";
             position: absolute;
             inset: calc(var(--pad) - 6px);
-            border: 2px solid rgba(0, 0, 0, .25);
+            border: 2px solid var(--card-decoration);
             border-radius: calc(var(--radius) - 4px);
             pointer-events: none;
             box-sizing: border-box;
+        }
+
+        .object::after {
+            corner-shape: scoop;
         }
 
         .title {
@@ -236,9 +243,16 @@
 
         .meta {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
             gap: 4px;
             margin-bottom: 4px;
+
+            .object & {
+                height: 24px;
+                border: 2px solid var(--card-decoration);
+                border-radius: 50%;
+                corner-shape: scoop;
+            }
         }
 
         .box {
@@ -264,6 +278,16 @@
 
         .footer {
             gap: 6px;
+
+            .object & {
+                justify-content: center;
+
+                .chip {
+                    text-align: center;
+                    width: 100%;
+                    corner-shape: scoop;
+                }
+            }
         }
 
         .level {
@@ -314,7 +338,8 @@
 
     <section class="panel">
         <section class="header">
-            <p><strong>Impresión:</strong> A4, orientación vertical, <u>escala 100 %</u> (sin “ajustar a página”). Pegá tu
+            <p><strong>Impresión:</strong> A4, orientación vertical, <u>escala 100 %</u> (sin “ajustar a página”). Pegá
+                tu
                 JSON con la siguiente estructura o subí tu archivo y tocá Generar.</p>
             <button id="toggle-theme"><span class="material-symbols-outlined">dark_mode</span> Modo oscuro</button>
         </section>
@@ -340,11 +365,11 @@
 
         function createCard(spell = {}) {
             const {
-                title = 'Sin título', castingTime = '—', range = '—', components = '',
-                duration = '', materials = '', text = 'Descripción…', school = '', level = '', fontSize = ''
+                title = 'Sin título', castingTime = '', range = '', components = '',
+                duration = '', materials = '', text = 'Descripción…', school = '', level = '', fontSize = '', object = false
             } = spell;
             const card = document.createElement('article');
-            card.className = 'card ' + (school ? 'school-' + slugify(school) : 'default');
+            card.className = (object ? 'card object ' : 'card ') + (school ? 'school-' + slugify(school) : 'default');
             card.innerHTML = `
             <h2 class='title'>${title}</h2>
             <section class='meta'>
@@ -355,14 +380,16 @@
             </section>
             ${materials ? `<section class='mats'>${materials}</section>` : ''}
             <main class='text'>${text}</main>
-            ${school ? `<footer class='footer'>
-                <div class='chip'>${school}</div>
-                <div class='chip level'><span>Level</span>${level}</div>
-            </footer>` : ''}`;
+            <footer class='footer'>
+            ${object ? `<div class='chip'>Objeto Mágico</div>` : ''}
+            ${school ? `<div class='chip'>${school}</div>
+                        <div class='chip level'><span>Level</span>${level}</div>` : ''}
+            </footer>`;
+
 
             const textEl = card.querySelector('.text');
             if (fontSize) {
-                textEl.style.fontSize = `${fontSize}px`;{}
+                textEl.style.fontSize = `${fontSize}px`; { }
             } else if (text.length > 380) {
                 textEl.style.fontSize = '9px';
             } else {
