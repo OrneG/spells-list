@@ -34,6 +34,7 @@
     },
     {
         "title": "Bracelets of the Boneless",
+        "object": true,
         "text": "Una vez al día podés <b>repetir</b> una tirada de <b>Destreza</b>, debés quedarte con el nuevo resultado.\nGanas la habilidad <b>Mind Grip</b> \n\n•<b>Mind Grip</b>: La criatura objetivo debe realizar una tirada de salvación de Constitución. Si falla, queda <b>incapacitada</b>. Al final de cada uno de sus turnos puede repetir la tirada, terminando el efecto en caso de éxito. Este es un conjuro de <b>concentración</b>: la concentración se pierde si realizas cualquier acción o movimiento."
     }
 ]

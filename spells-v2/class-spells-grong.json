@@ -21,6 +21,12 @@
         "text": "Podes realizar la acción <b>Disengage</b> o <b>Dash</b> como acción bonus, y tu <b>distancia de salto se duplica</b>."
     },
     {
+        "title": "Ki-Fueled Attack",
+        "castingTime": "-",
+        "range": "-",
+        "text": "Cuando seas alcanzado por un ataque a distancia con arma, puedes <b>reducir el daño</b> en 1d10 + tu modificador de Destreza + tu nivel.\n\n• Si esto reduce el daño a 0, puedes atrapar el proyectil si tienes una mano libre.\n• Si lo atrapas, puedes <b>gastar 1 ki</b> para lanzarlo de vuelta inmediatamente como un ataque a distancia (alcance 20/60), usando tu proficiency. El misíl cuenta como un arma de monje."
+    },
+    {
         "title": "Deflect Missiles",
         "castingTime": "Reacción",
         "range": "-",
@@ -42,6 +48,7 @@
     },
     {
         "title": "Bandages of the Enduring Path",
+        "object": true,
         "text": "Cada vez que uses un dado de artes marciales, utiliza un dado de un nivel superior:\n\n•Un d4 pasa a ser un d6.\n•Un d6 pasa a ser un d8.\n\nCuando uses <b>Hands of Healing</b> en un compañero, podes <b>sumar un dado extra</b>.\nGanas <b>Flurry of Vitality</b>.\n\n•<b>Flurry of Vitality</b> : Una vez al día, cuando uses <b>Flurry of Blows</b>, recuperas una cantidad de puntos de vida igual a 1 dado de Artes Marciales + modificador de Sabiduría."
     },
     {

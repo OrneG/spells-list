@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Bardic Inspiration",
+        "castingTime": "Acción Bonus",
+        "range": "60 pies",
+        "materials": "1 Bardic Inspiration",
+        "text": "El objetivo obtiene un dado de Bardic Inspiration.\nEn los proximos 10 minutos, la criatura puede tirar el dado y sumar el número a una tirada de habilidad, ataque o salvación que haga. Puede tirarlo después de tirar su d20, pero antes de saber si fue un éxito o fracaso.\nUna vez tirado, el dado se pierde, la criatura no puede tener mas de una Bardic Inspiration.\n\nTenes tantos dados de Bardic Inspiration como tu modificador de Carisma.\nRegeneras todas las cargas luego de un descanso largo."
+    },
+    {
+        "title": "Tales from Beyond",
+        "castingTime": "Acción Bonus",
+        "range": "30 pies",
+        "materials": "1 Bardic Inspiration",
+        "text": "Tiras 1 dado de Bardic Inspiration para consultar la tabla de espiritus, esa historia queda en tu mente hasta que uses su efecto, o termines un descanso corto o largo.\nPodes usar una <b>acción</b> para elegir una criatura que veas (podes ser vos mismo) para que sea el objetivo del efecto de la historia. Una vez que lo hagas, no vas a poder usar el efecto denuevo hasta que vuelvas a tirar el dado de Bardic Inspiration.\nSolo podes tener una historia en mente a la vez, y si tiras dado para consultar la tabla, terminas automaticamente el efecto de la historia anterior.\nSi pide una tirada de salvación, usas tu spell save DC."
+    },
+    {
+        "title": "Radiant Soul",
+        "castingTime": "Acción",
+        "duration": "1 minuto",
+        "text": "Tus ojos brillan y dos alas luminosas que te permiten <b>volar</b> aparecen en tu espalda, \nUna vez en cada uno de tus turnos, cuando hagas daño con un ataque o hechizo podes sumar daño radiante extra, igual a tu proficiency bonus.\nPodes terminar el efecto como una acción bonus, podes volver a usarlo luego de hacer un descanso largo."
+    }
+]
