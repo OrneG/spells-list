@@ -6,12 +6,6 @@
         "text": "Se usa como si fuese el hechizo <b>Find familiar</b> sin componentes materiales, dura cantidad de horas como la mitad de tu nivel de druida, redondeado para abajo."
     },
     {
-        "title": "Wild Shape",
-        "castingTime": "Acción",
-        "materials": "1 Wild Shape",
-        "text": "Te transformas en una criatura que ya hayas visto.\nPodes estar en esa forma por una cantidad de horas igual a la mitad de tu nivel de druida, redondeado para abajo.\nPodes cancelarlo usando una <b>acción bonus</b>, si caes inconciente o si moris\n\n•Tomas las estadisticas de la bestia, pero mantenes tu alineamiento, personalidad, estadisticas mentales (Int/Wiz/Cha), y tus proficiencies con habilidades/tiradas de salvación, ademas de tener los que te da la criatura. Si la criatura tiene mejores proficiencies, usas esos. No aplican acciones legendarias o de guarida\n•Usas los puntos de vida y hit dice de la criatura. Cuando volves a tu forma, tus puntos de vida vuelven a los que tenías antes de transformarte (Salvo que llegues a 0, en ese caso el exceso de daño se transfiere).\n•No podes lanzar hechizos o hablar (a menos que la forma lo permita), pero mantenes concentración en hechizos existentes y podes tomar acciones si lo requieren.\n•Mantenes caracteristicas de tu raza/clase que tu forma de bestia pueda fisicamente usar, pero no podes usar sentidos aumentados (como Darkvision) a menos que la criatura lo tenga.\n•Todo el equipo queda en tu forma humana, no tenes acceso a el en forma de criatura."
-    },
-    {
         "title": "Ring of the Turning Seasons",
         "object": true,
         "text": "Este anillo de madera posee cuatro filamentos metálicos trenzados. Cada efecto puede usarse una vez al día, dependiendo de tu temporada.\n\n• <b>Primavera</b>. Puedes lanzar <b>Charm Person</b>. La criatura no siente que ha sido hechizada mágicamente, sino que se dejó llevar por tu presencia primaveral.\n• <b>Verano</b>. Ganas proficiency en <b>Intimidacion</b>. Si ya la tienes, ganas ventaja en sus tiradas.\n• <b>Otoño</b>. Puedes lanzar <b>Goodberry</b>. Cada baya creada otorga 1d4 puntos de golpe temporales al ser consumida.\n• <b>Invierno</b>. Cuando hagas una tirada de <b>Insight</b>, puedes tirar nuevamente y quedarte con ese resultado. Al hacerlo, tu expresión se vuelve fría y distante hasta el final de tu próximo descanso corto."
@@ -20,6 +14,8 @@
         "title": "Spirit Totem",
         "castingTime": "Acción bonus",
         "range": "60 pies",
-        "text": "Invocas un espíritu de la naturaleza que crea un área de 30 pies de radio y duración de 1 minuto. Puede moverse como una acción bonus a un punto que puedas ver hasta 60 pies, el efecto depende del espíritu que elijas:\n\n• <B>Oso</b>: Las criaturas que elijas en el rango ganan puntos de vida temporales igual a 5 + nivel de druida, además de ventaja en tiradas de habilidad y salvación de Fuerza.\n• <b>Aguila</b>: Usando tu reacción, podes darle ventaja a una tirada de ataque que se realize a un objetivo dentro del área. Los aliados ganana ventaja en tiradas de Percepción.\n• <b>Unicornio</b>: Tus aliados ganan ventaja en tiradas para detectar criaturas. Cuando gastes un spell slot en un hechizo de curación (para curar alguien dentro o fuera del aura), cada criatura que elijas dentro del aura puede también curarse puntos de vida iguales a tu nivel de druida.\n\nSe recarga en descanso corto o largo."
-    }    
+        "text": "Invocas un espíritu de la naturaleza que crea un área de 30 pies de radio y duración de 1 minuto. Puede moverse como una acción bonus a un punto que puedas ver hasta 60 pies, el efecto depende del espíritu que elijas:\n\n• <B>Oso</b>: Las criaturas que elijas en el rango ganan puntos de vida temporales igual a 5 + nivel de druida, además de ventaja en tiradas de habilidad y salvación de Fuerza.\n• <b>Aguila</b>: Usando tu reacción, podes darle ventaja a una tirada de ataque que se realize a un objetivo dentro del área. Los aliados ganana ventaja en tiradas de Percepción.\n• <b>Unicornio</b>: Tus aliados ganan ventaja en tiradas para detectar criaturas. Cuando gastes un spell slot en un hechizo de curación (para curar alguien dentro o fuera del aura), cada criatura que elijas dentro del aura puede también curarse puntos de vida iguales a tu nivel de druida.",
+        "recharge": "Una vez por <b>descanso corto o largo</b>"
+
+    }
 ]

@@ -4,7 +4,7 @@
         "castingTime": "Acción",
         "range": "30 pies",
         "materials": "1 Channel Divinity",
-        "text": "Todos los No-muertos que puedan verte u oírte deben hacer una tirada de salvación de Sabiduría. Si fallan, quedan expulsados por 1 minuto o hasta que reciban daño.\nLos no-muertos expulsados deben huir, no pueden hacer reacciones y solo pueden usar Dash o escapar de restricciones de movimiento. Si no tienen a dónde moverse, pueden usar la acción Dodge."
+        "text": "Todos los <b>No-muertos</b> que puedan verte u oírte deben hacer una <b>tirada de salvación de Sabiduría</b>. Si fallan, quedan expulsados por 1 minuto o hasta que reciban daño.\nLos no-muertos expulsados deben huir, no pueden hacer reacciones y solo pueden usar <b>Dash</b> o escapar de restricciones de movimiento. Si no tienen a dónde moverse, pueden usar la acción <b>Dodge</b>."
     },
     {
         "title": "Guided Strike",

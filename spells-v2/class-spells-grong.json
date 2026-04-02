@@ -2,40 +2,33 @@
     {
         "title": "Flurry of Blows",
         "castingTime": "Acción bonus",
-        "range": "-",
         "materials": "1 punto de Ki",
         "text": "Inmediatamente <b>después de atacar</b>, realizas dos golpes desarmados."
     },
     {
         "title": "Patient Defense",
         "castingTime": "Acción bonus",
-        "range": "-",
         "materials": "1 punto de Ki",
         "text": "Podes realizar la acción <b>Dodge</b> como acción bonus."
     },
     {
         "title": "Step of the Wind",
         "castingTime": "Acción bonus",
-        "range": "-",
         "materials": "1 punto de Ki",
         "text": "Podes realizar la acción <b>Disengage</b> o <b>Dash</b> como acción bonus, y tu <b>distancia de salto se duplica</b>."
     },
     {
         "title": "Ki-Fueled Attack",
-        "castingTime": "-",
-        "range": "-",
-        "text": "Cuando seas alcanzado por un ataque a distancia con arma, puedes <b>reducir el daño</b> en 1d10 + tu modificador de Destreza + tu nivel.\n\n• Si esto reduce el daño a 0, puedes atrapar el proyectil si tienes una mano libre.\n• Si lo atrapas, puedes <b>gastar 1 ki</b> para lanzarlo de vuelta inmediatamente como un ataque a distancia (alcance 20/60), usando tu proficiency. El misíl cuenta como un arma de monje."
+        "materials": "1 punto de Ki o más",
+        "text": "Como parte de tu acción en tu turno, puedes realizar un ataque con un golpe desarmado o un arma de monje como <b>acción bonus</b> antes de que termine ese turno."
     },
     {
         "title": "Deflect Missiles",
         "castingTime": "Reacción",
-        "range": "-",
         "text": "Cuando seas alcanzado por un ataque a distancia con arma, puedes <b>reducir el daño</b> en 1d10 + tu modificador de Destreza + tu nivel.\n\n• Si esto reduce el daño a 0, puedes atrapar el proyectil si tienes una mano libre.\n• Si lo atrapas, puedes <b>gastar 1 ki</b> para lanzarlo de vuelta inmediatamente como un ataque a distancia (alcance 20/60), usando tu proficiency. El misíl cuenta como un arma de monje."
     },
     {
         "title": "Hands of Harm",
-        "castingTime": "-",
-        "range": "-",
         "materials": "1 punto de Ki",
         "text": "Una vez por turno <b>cuando golpeas a una criatura</b> con un ataque desarmado, puedes infligir daño <b>necrótico</b> adicional igual a 1 dado de Artes Marciales + tu modificador de Sabiduría."
     },
@@ -49,19 +42,17 @@
     {
         "title": "Bandages of the Enduring Path",
         "object": true,
-        "text": "Cada vez que uses un dado de artes marciales, utiliza un dado de un nivel superior:\n\n•Un d4 pasa a ser un d6.\n•Un d6 pasa a ser un d8.\n\nCuando uses <b>Hands of Healing</b> en un compañero, podes <b>sumar un dado extra</b>.\nGanas <b>Flurry of Vitality</b>.\n\n•<b>Flurry of Vitality</b> : Una vez al día, cuando uses <b>Flurry of Blows</b>, recuperas una cantidad de puntos de vida igual a 1 dado de Artes Marciales + modificador de Sabiduría."
+        "text": "Cada vez que uses un dado de artes marciales, utiliza un dado de un nivel superior:\n\n•Un d4 pasa a ser un d6.\n•Un d6 pasa a ser un d8.\n\nCuando uses <b>Hands of Healing</b> en un compañero, podes <b>sumar un dado extra</b>.\nGanas <b>Flurry of Vitality</b>.\n\n•<b>Flurry of Vitality</b> : Una vez al día, cuando uses <b>Flurry of Blows</b>, recuperas una cantidad de puntos de vida igual a <b>1 dado de Artes Marciales + modificador de Sabiduría.</b>"
     },
     {
         "title": "Slow Fall",
         "castingTime": "Reacción",
-        "range": "-",
-        "text": "Puedes reducir el daño de caida en 5 × tu nivel."
+        "text": "Puedes reducir el daño de caida en <b>5 x tu nivel.</b>"
     },
     {
         "title": "Quickened Healing",
         "castingTime": "Acción",
-        "range": "-",
         "materials": "2 puntos de Ki",
-        "text": "Tiras un dado de Artes Marciales. Recuperas puntos de vida iguales al resultado + tu proficiency bonus."
+        "text": "Tiras un dado de Artes Marciales. Recuperas puntos de vida iguales al <b>resultado + tu proficiency bonus.</b>"
     }
 ]

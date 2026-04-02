@@ -40,6 +40,7 @@
             --paper: #f5efe2;
             --text: #1E1E1E;
             --card-decoration: rgba(0, 0, 0, .25);
+            --object-decoration: #EFBF04;
         }
 
         :root[data-theme="light"] {
@@ -73,7 +74,7 @@
         }
 
         .box,
-        .mats {
+        .note {
             font-size: var(--fs-sm);
         }
 
@@ -93,7 +94,7 @@
 
         .box,
         .chip,
-        .mats {
+        .note {
             padding: 4px 8px;
         }
 
@@ -110,13 +111,13 @@
         }
 
         .level,
-        .mats {
+        .note {
             color: var(--label);
             background: rgb(from var(--accent) r g b / 80%);
         }
 
         .chip,
-        .label {
+        .label, .footer .note {
             font-variant: small-caps;
         }
 
@@ -217,7 +218,10 @@
             box-sizing: border-box;
             flex-direction: column;
             position: relative;
-            overflow: hidden;
+        }
+
+        .object {
+            background: linear-gradient(320deg,rgba(224, 224, 224, 0.6) 10%, var(--label) 20%, rgba(239, 191, 4, 0.3) 30%, var(--label) 40%, rgba(224, 224, 224, 0.8) 50%, var(--label) 60%, rgba(239, 191, 4, 0.3) 70%, var(--label) 80%, rgba(224, 224, 224, 0.6) 90%);
         }
 
         .card::after {
@@ -232,6 +236,7 @@
 
         .object::after {
             corner-shape: scoop;
+            border: 2px solid var(--object-decoration);
         }
 
         .title {
@@ -239,6 +244,10 @@
             text-align: center;
             font-size: var(--fs-lg);
             color: var(--accent, #000);
+
+            .object & {
+                color: var(--object-decoration);
+            }
         }
 
         .meta {
@@ -248,10 +257,11 @@
             margin-bottom: 4px;
 
             .object & {
-                height: 24px;
-                border: 2px solid var(--card-decoration);
+                min-height: 24px;
+                border: 2px solid var(--object-decoration);
                 border-radius: 50%;
                 corner-shape: scoop;
+                background-color: hsl(from var(--object-decoration) h s calc(l + 40));
             }
         }
 
@@ -265,28 +275,38 @@
             margin-bottom: 2px;
         }
 
-        .mats {
+        .note {
             border-radius: 4px;
             margin: 0 0 4px 0;
             min-height: 12px;
         }
 
         .text {
+            overflow: hidden;
             white-space: pre-wrap;
             flex: 1;
+            text-align: justify;
+
+            .object & {
+                padding: 0 8px;
+            }
         }
 
         .footer {
-            gap: 6px;
+            & .note {
+                width: 100%;
+                margin: 0;
+                color: var(--accent);
+                background-color: hsl(from var(--accent) h s calc(l + 50));
+            }
 
-            .object & {
+            .object & .chip {
                 justify-content: center;
-
-                .chip {
-                    text-align: center;
-                    width: 100%;
-                    corner-shape: scoop;
-                }
+                width: 100%;
+                corner-shape: scoop;
+                border: 2px solid var(--object-decoration);
+                color: var(--object-decoration);
+                background-color: hsl(from var(--object-decoration) h s calc(l + 40));
             }
         }
 
@@ -345,7 +365,7 @@
         </section>
         <textarea id="json-input">[
             { "title":"Magic Missile","castingTime":"1 action","range":"120 ft.","components":"V, S","duration":"Instantaneous", "text":"You create three glowing darts of magical force. Each dart automatically hits a creature you can see within range.","school":"Evocation","level":"1" },
-            {"title": "Protection from Evil and Good","castingTime": "Acción","range": "Touch","components": "V, S, M","materials": "Agua bendita o plata y hierro en polvo, que se consume","duration": "Concentración, hasta 10 minutos","text": "Una criatura dispuesta queda protegida contra aberrations, celestials, elementals, fey, fiends y <b>undead</b>. Esas criaturas tienen desventaja en tiradas de ataque contra el objetivo. El objetivo no puede ser <b>hechizado</b>, <b>asustado</b> ni poseído por ellas; si ya lo está, tiene ventaja en nuevas tiradas de salvación contra el efecto relevante.","school": "Abjuration","level": "1","fontSize": "10"},
+            {"title": "Protection from Evil and Good","castingTime": "Acción","range": "Touch","components": "V, S, M","materials": "Agua bendita o plata y hierro en polvo, que se consume","duration": "Concentración, hasta 10 minutos","text": "Una criatura dispuesta queda protegida contra aberrations, celestials, elementals, fey, fiends y <b>undead</b>. Esas criaturas tienen desventaja en tiradas de ataque contra el objetivo. El objetivo no puede ser <b>hechizado</b>, <b>asustado</b> ni poseído por ellas; si ya lo está, tiene ventaja en nuevas tiradas de salvación contra el efecto relevante.","school": "Abjuration","level": "1"},
             { "title":"Misty Step","castingTime":"1 bonus action","range":"Self","components":"V","duration":"Instantaneous", "text":"Teleport up to 30 ft.","school":"Transmutation","level":"2" }]
         </textarea>
         ó
@@ -366,7 +386,7 @@
         function createCard(spell = {}) {
             const {
                 title = 'Sin título', castingTime = '', range = '', components = '',
-                duration = '', materials = '', text = 'Descripción…', school = '', level = '', fontSize = '', object = false
+                duration = '', materials = '', text = 'Descripción…', school = '', level = '', recharge = '', object = false
             } = spell;
             const card = document.createElement('article');
             card.className = (object ? 'card object ' : 'card ') + (school ? 'school-' + slugify(school) : 'default');
@@ -378,23 +398,26 @@
                 ${components ? `<div class='box'><span class='label'>Components</span>${components}</div>` : ''}
                 ${duration ? `<div class='box'><span class='label'>Duration</span>${duration}</div>` : ''}
             </section>
-            ${materials ? `<section class='mats'>${materials}</section>` : ''}
+            ${materials ? `<section class='note'>${materials}</section>` : ''}
             <main class='text'>${text}</main>
             <footer class='footer'>
             ${object ? `<div class='chip'>Objeto Mágico</div>` : ''}
+            ${recharge ? `<div class='note'>${recharge}</div>` : ''}
             ${school ? `<div class='chip'>${school}</div>
                         <div class='chip level'><span>Level</span>${level}</div>` : ''}
             </footer>`;
 
-
             const textEl = card.querySelector('.text');
-            if (fontSize) {
-                textEl.style.fontSize = `${fontSize}px`; { }
-            } else if (text.length > 380) {
-                textEl.style.fontSize = '9px';
-            } else {
-                textEl.style.fontSize = '11px';
-            }
+
+            let size = 11;
+            textEl.style.fontSize = `${size}px`;
+
+            requestAnimationFrame(() => {
+                while (textEl.scrollHeight > textEl.clientHeight && size > 9) {
+                    size--;
+                    textEl.style.fontSize = `${size}px`;
+                }
+            });
 
             return card;
         }
