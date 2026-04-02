@@ -207,6 +207,12 @@
             }
         }
 
+        article.default::after {
+            background: var(--character) no-repeat center var(--paper);
+            background-size: contain;
+            opacity: .1;
+        }
+
         .card {
             color-scheme: light;
             width: var(--card-w);
@@ -386,7 +392,7 @@
         function createCard(spell = {}) {
             const {
                 title = 'Sin título', castingTime = '', range = '', components = '',
-                duration = '', materials = '', text = 'Descripción…', school = '', level = '', recharge = '', object = false
+                duration = '', materials = '', text = 'Descripción…', school = '', level = '', recharge = '', character = '', object = false
             } = spell;
             const card = document.createElement('article');
             card.className = (object ? 'card object ' : 'card ') + (school ? 'school-' + slugify(school) : 'default');
@@ -406,6 +412,12 @@
             ${school ? `<div class='chip'>${school}</div>
                         <div class='chip level'><span>Level</span>${level}</div>` : ''}
             </footer>`;
+
+            requestAnimationFrame(() => {
+                if (card.classList.contains('default') && character) {
+                    card.style.setProperty('--character', `url('logos/${character}.png')`);
+                }
+            });
 
             const textEl = card.querySelector('.text');
 

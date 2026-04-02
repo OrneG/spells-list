@@ -3,7 +3,8 @@
         "title": "Wild Companion",
         "castingTime": "Acción",
         "materials": "1 Wild Shape",
-        "text": "Se usa como si fuese el hechizo <b>Find familiar</b> sin componentes materiales, dura cantidad de horas como la mitad de tu nivel de druida, redondeado para abajo."
+        "text": "Se usa como si fuese el hechizo <b>Find familiar</b> sin componentes materiales, dura cantidad de horas como la mitad de tu nivel de druida, redondeado para abajo.",
+        "character": "lirael"
     },
     {
         "title": "Ring of the Turning Seasons",
@@ -15,7 +16,7 @@
         "castingTime": "Acción bonus",
         "range": "60 pies",
         "text": "Invocas un espíritu de la naturaleza que crea un área de 30 pies de radio y duración de 1 minuto. Puede moverse como una acción bonus a un punto que puedas ver hasta 60 pies, el efecto depende del espíritu que elijas:\n\n• <B>Oso</b>: Las criaturas que elijas en el rango ganan puntos de vida temporales igual a 5 + nivel de druida, además de ventaja en tiradas de habilidad y salvación de Fuerza.\n• <b>Aguila</b>: Usando tu reacción, podes darle ventaja a una tirada de ataque que se realize a un objetivo dentro del área. Los aliados ganana ventaja en tiradas de Percepción.\n• <b>Unicornio</b>: Tus aliados ganan ventaja en tiradas para detectar criaturas. Cuando gastes un spell slot en un hechizo de curación (para curar alguien dentro o fuera del aura), cada criatura que elijas dentro del aura puede también curarse puntos de vida iguales a tu nivel de druida.",
-        "recharge": "Una vez por <b>descanso corto o largo</b>"
-
+        "recharge": "Una vez por <b>descanso corto o largo</b>",
+        "character": "lirael"
     }
 ]
