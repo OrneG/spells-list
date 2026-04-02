@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Chaos Bolt",
+		"castingTime": "Acción",
+		"range": "120 pies",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Lanzas una maza ondulante de energia caótica a una criatura en rango. Realiza un ataque mágico de rango, la criatura objetivo recibe 2d8 + 1d6 de daño.\nElegí uno de los d8, ese dado determina el tipo del daño. Si en ambos d8 salió el mismo número, la energía caótica salta del objetivo a otro que vos elijas a 30 pies de el. Realizá otro ataque magico de rango, otra tirada de daño, este puede volver a saltar a otro objetivo.\nUna criatura puede ser dañada por este hechizo una vez por casteo.\n\nAt Higher Levels: Usando un spell slot de nivel 2 o mayor, cada objetivo recibe 1d6 extra de daño por cada slot por arriba de 1. ",
+		"school": "Evocation",
+		"level": "1"
+	},
+	{
+		"title": "Misty Step",
+		"castingTime": "Acción bonus",
+		"range": "Self",
+		"components": "V",
+		"duration": "Instantáneo",
+		"text": "Te teletransportás hasta <b>30 pies</b> a un lugar que no esté ocupado y puedas ver",
+		"school": "Transmutation",
+		"level": "2"
+	},
+	{
+		"title": "Shield",
+		"castingTime": "Reacción",
+		"range": "Self",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Luego de que recibas un ataque, creas una barrera mágica invisible. Hasta el principio de tu proximo turno, tenes un bonus de +5 de AC (Se incluye para el ataque al cual reaccionaste, y si fuese un Magic missile, no recibis daño).",
+		"school": "Abjuration",
+		"level": "1"
+	}
+]
