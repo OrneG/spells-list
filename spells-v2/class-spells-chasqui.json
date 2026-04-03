@@ -1,29 +1,23 @@
 [
     {
         "title": "Tides of Chaos",
-        "castingTime": "-",
-        "range": "-",
         "materials": "1 Tide of Chaos",
-        "text": "Puedes obtener <b>ventaja</b> en una tirada de ataque, habilidad o tirada de salvación una vez por descanso largo.\nEn cualquier momento antes de recuperar este uso, el DM puede hacer que tires en la tabla de Wild Magic Surge inmediatamente después de lanzar un hechizo. Luego recuperas el uso de esta característica."
+        "text": "Puedes obtener <b>ventaja</b> en una <b>tirada de ataque, habilidad o tirada de salvación</b>.\nEn cualquier momento antes de recuperar este uso, el DM puede hacer que tires en la <b>tabla de Wild Magic Surge</b> inmediatamente después de lanzar un hechizo. Luego recuperas el uso de esta característica.",
+        "recharge": "Una vez por <b>descanso largo</b>"
     },
     {
         "title": "Quickened Spell",
-        "castingTime": "-",
-        "range": "-",
         "materials": "2 Sorcery points",
         "text": "Cuando <b>lanzas un hechizo</b> como 1 acción, podes cambiarlo a 1 acción bonus en este lanzamiento."
     },
     {
         "title": "Subtle Spell",
-        "castingTime": "-",
-        "range": "-",
         "materials": "1 Sorcery point",
         "text": "Cuando lanzas un hechizo, podes lanzarlo sin componentes somáticos ni verbales."
     },
     {
         "title": "Flexible Casting",
         "castingTime": "Acción Bonus",
-        "range": "-",
         "materials": "Sorcery point o Spell Slot",
         "text": "Puedes transformar <b>Sorcery points</b> no gastados en un <b>spell slot</b>, que desaparecen cuando terminas un descanso largo.\n O puedes gastar un <n>spell slot</b> y ganar una cantidad de <b>sorcery points</b> igual al nivel de ese slot.\n\n• Spell slot nivel 1 -> 2 Sorcery points\n• Spell slot nivel 2 -> 3 Sorcery points\n• Spell slot nivel 3 -> 5 Sorcery points\n• Spell slot nivel 4 -> 6 Sorcery points"
     },
