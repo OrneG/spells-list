@@ -3,6 +3,7 @@
         "title": "Favored Foe",
 		"duration": "Concentración, hasta 1 minuto",
         "text": "Marcas a la criatura luego de ser <b>golpeada por un ataque</b>.\nLa primera vez en cada uno de tus turnos que golpees a la criatura marcada y hagas daño (incluido el momento en que la marcaste), agregas <b>1d4</b> extra a la <b>tirada de daño</b>.\nPodes usar una cantidad de marcas igual a tu <b>proficiency bonus</b>.\nAl nivel 6 aumenta a 1d6.",
-        "recharge": "Regeneras todas las cargas después de un <b>descanso largo</b>"
+        "recharge": "Regeneras todas las cargas después de un <b>descanso largo</b>",
+        "character": "neryssa"
     }
 ]
