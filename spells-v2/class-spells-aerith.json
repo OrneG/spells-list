@@ -20,5 +20,90 @@
         "duration": "1 minuto",
         "text": "Tus ojos brillan y dos alas luminosas que te permiten <b>volar</b> aparecen en tu espalda, \nUna vez en cada uno de tus turnos, cuando hagas daño con un ataque o hechizo podes sumar daño radiante extra, igual a tu proficiency bonus.\nPodes terminar el efecto como una acción bonus.",
         "recharge": "Una vez por <b>descanso largo</b>"
-    }
+    },
+	{
+		"title": "Guidance",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "Concentración, 1 minuto",
+		"text": "Tocas una criatura dispuesta a recibir el beneficio. Una vez antes de que termine el hechizo, el objetivo puede tirar 1d4 y agregarlo al valor de una tirada de habilidad de su elección. Puede tirar el dado antes o después de hacer la tirada de habilidad. Luego, el hechizo termina.",
+		"school": "Divination",
+		"level": "Cantrip"
+	},
+	{
+		"title": "Vicious Mockery",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V",
+		"duration": "Instantaneo",
+		"text": "Lanzas una serie de insultos con sutiles encantamientos a una criatura que puedas ver. El objetivo debe hacer una <b>tirada de salvación de Sabiduría</b>, si falla recibe 1d6 de daño psiquico y tiene desventaja en la próxima tirada de ataque que haga, hasta el final de su próximo turno.\n<b>At Higher Levels</b>: Aumenta 1d6 el daño en nivel 5.",
+		"school": "Divination",
+		"level": "Cantrip"
+	},
+	{
+		"title": "Message",
+		"castingTime": "Acción",
+		"range": "120 pies",
+		"components": "V, S, M",
+        "materials": "Un pequeño pedazo de cable de cobre",
+		"duration": "1 ronda",
+		"text": "Apuntas tu dedo hacian una criatura. Ella, y solo ella, recibe un mensaje que puede responder en un susurro que solo vos podes escuchar.\nPodes usar este hechizo a travez de objetos sólidos si sos conocido de esa persona, y sabes que no hay una barrera de por medio: Silencio Mágico, 1 pie de piedra, 1 pulgada de un metal común, una pequeña lamina de plomo, o 3 pies de madera, todos estos bloquean el hechizo. Este no es necesario que siga una linea recta, puede viajar libremente doblando en esquinas y por aperturas pequeñas.",
+		"school": "Transmutation",
+		"level": "Cantrip"
+	},
+    {
+		"title": "Healing Word",
+		"castingTime": "Acción bonus",
+		"range": "60 pies",
+		"components": "V",
+		"duration": "Instantáneo",
+		"text": "Una criatura que puedas ver dentro del rango recupera <b>1d4</b> hit points + tu modificador de hechizo. No tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>At Higher Levels:</b> La curación aumenta en <b>1d4</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Evocation",
+		"level": "1"
+	},
+    {
+		"title": "Shatter",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S, M",
+        "materials": "Un trozo de Mica",
+		"duration": "Instantáneo",
+		"text": "Un repentino y fuerte sonido muy intenso aparece en un punto de tu elección. Cada criatura en una esfera de 10 pies de radio centrada en el punto debe hacer una <b>tirada de salvación de Constitución</b>. Reciben 3d8 daño de trueno si fallan, o la mitad si lo pasan. Criaturas hechas de material inorganico como piedra, cristal o metal, tiran don desventaja. \nObjetos no mágicos que no estén siendo llevados por alguien o agarrados también reciben daño.\n<b>At Higher Levels</b>: Aumenta 1d8 de daño por cada spell slot más allá de nivel 2.",
+		"school": "Evocation",
+		"level": "2"
+	},
+    {
+		"title": "Detect Thoughts",
+		"castingTime": "Acción",
+		"range": "Self",
+		"components": "V, S, M",
+        "materials": "Un trozo de cobre",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Podes leer los pensamientos de ciertas criaturas. Cuando lanzas el hechizo y como una acción en cada uno de tus turnos, podes enfocar tu mente en cualquiera de las criaturas que puedas ver a 30 pies. Si la criatura tiene Inteligencia de 3 o menor, o si no habla ningún lenguaje, no es afectada por el hechizo.\n\nInicialmente conoces los pernsamientos superficiales de la criatura. Como una acción podes cambiar tu atención a otra criatura, o intentar revisar su mente de manera mas profunda. Si intentas profundizar, el objetivo debe hacer una <b>tirada de salvación de Sabiduría</b>. Si falla, ganas conocimiento en su forma de razonar, su estado emocional, y lo que está dando vueltas en su mente (algo que lo preocupe, que ama u odia). Si supera la tirada, el hechizo termina. Ante cualquier resultado, el objetivo sabe que le estuviste leyendo la mente, y salvo que cambies tu atención a los pensamientos de otra criatura, el objetivo puede usar su acción para hacer una tirada de Inteligencia (compitiendo con una tirada tuya de Inteligencia). Si gana, el hechizo se termina.\nPreguntas que se le hagan verbalmente a la criatura van a modificar el flujo de su pensamiento, el hechizo es particularmetne efectivo como sistema de interrogación\nTambién podes usar el hechizo para detectar presencias de criaturas que piensen que no puedas ver. Cuando usas el hechizo como tu acción y por su duración, podes buscar pensamientos a 30 pies tuyos. El hechizo puede penetrar barreras, pero 2 pies de roca, 2 pulgadas de cualquier metal o una pequeña lamina de plomo funcionan como una barrera a la cual el hechizo no puede penetrar. No podes detectar criaturas con Inteligencia de 3 o menos, o si no hablan ningún lenguaje.\nUna vez detectas la presencia de una criatura usando este método, podes leer sus pensamientos en la forma descrpita por la carta, siempre y cuando continue en rango.",
+		"school": "Divination",
+		"level": "2"
+	},
+    {
+		"title": "Silent Image",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S, M",
+        "materials": "Un poco de lana",
+		"duration": "Concentración, hasta 10 minutos",
+		"text": "Creas la imagen de un objeto, criatura o algún fenomeno visible que no sea más grande que un cubo de 15 pies. La imagen aparece en un punto en rango y dura el total del hechizo. Es puramente visual, no tiene sonido, olor ni ningún efecto sensorial.\nPodes usar tu acción para hacer que la imagen se mueva a cualquier punto dentro del rango. Si la imagen cambia de ubicación, podes alterar su apariencia para que el movimiento parezca natural.\nInteracciones fisicas con la imagen revelan que es una ilusión, porque las cosas lo atraviezan. Si una criatura usa una acción para examinar la imagen puede determinar que es una ilusión con una tirada de Investigación contra tu Spell save DC. Si supera la tirada, ademas puede ver a travez de la imagen.",
+		"school": "Illusion",
+		"level": "1"
+	},
+    {
+		"title": "Sleep",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S, M",
+        "materials": "Un poco de arena o petalos de rosas",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "Cada criatura de tu elección en una esfera de 5 pies de radio, centrada en un punto dentro del rango, debe hacer una <b>tirada de salvación de Sabiduría</b> o quedar incapacitaods hasta el final de su próximo turno, donde van a poder repetir la tirada de salvación. Si la criatura falla la segunda tirada, gana el estado de Inconciente por la duración. El hechizo termina si el objetivo recibe daño o si alguien a 5 pies de el gasta una acción para despertarlo.\nCriaturas que no duermen, como los elfos, o que tengan inmunidad al estado de Exausto, automaticamente superan la tirada.",
+		"school": "Enchantment",
+		"level": "1"
+	}
 ]

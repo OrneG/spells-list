@@ -18,5 +18,27 @@
         "text": "Invocas un espíritu de la naturaleza que crea un área de 30 pies de radio y duración de 1 minuto. Puede moverse como una acción bonus a un punto que puedas ver hasta 60 pies, el efecto depende del espíritu que elijas:\n\n• <B>Oso</b>: Las criaturas que elijas en el rango ganan puntos de vida temporales igual a 5 + nivel de druida, además de ventaja en tiradas de habilidad y salvación de Fuerza.\n• <b>Aguila</b>: Usando tu reacción, podes darle ventaja a una tirada de ataque que se realize a un objetivo dentro del área. Los aliados ganana ventaja en tiradas de Percepción.\n• <b>Unicornio</b>: Tus aliados ganan ventaja en tiradas para detectar criaturas. Cuando gastes un spell slot en un hechizo de curación (para curar alguien dentro o fuera del aura), cada criatura que elijas dentro del aura puede también curarse puntos de vida iguales a tu nivel de druida.",
         "recharge": "Una vez por <b>descanso corto o largo</b>",
         "character": "lirael"
+    },
+    {
+        "title": "Magic Stone",
+        "castingTime": "Acción bonus",
+        "range": "Touch",
+        "components": "V, S",
+		"duration": "Instantaneo",
+        "text": "Tocas de una a tres piedras pequeñas y las imbuis con mágia. Se pueden usar para hacer ataques mágicos de rango tirandolas con una gomera o con la mano. Si son arrojadas, tienen un rango de <b>60 pies</b>. Si es otra persona que ataca con la piedra, agrega tu modificador de habilidad de hechizo cuando haga tirada de ataque, no el suyo. Al golpear, toma daño contundente igual a 1d6 + modificador de hechizo. Sea que la piedra golpee o no, termina el hechizo.\nSi volves a usar el hechizo, las anteriores piedras pierden su efecto mágico.",
+        "character": "lirael",
+        "school": "Transmutation",
+		"level": "Cantrip"
+    },
+    {
+        "title": "Poison Spray",
+        "castingTime": "Acción",
+        "range": "10 pies",
+        "components": "V, S",
+		"duration": "Instantaneo",
+        "text": "Extendes tu mano hacia una criatura que puedas ver, la cual debe hacer una <b>tirada de salvación de Constitución</b>, si falla recibe 1d12 de daño de veneno.",
+        "character": "lirael",
+        "school": "Conjuration",
+		"level": "Cantrip"
     }
 ]
