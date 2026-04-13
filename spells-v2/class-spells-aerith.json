@@ -37,7 +37,7 @@
 		"range": "60 pies",
 		"components": "V",
 		"duration": "Instantaneo",
-		"text": "Lanzas una serie de insultos con sutiles encantamientos a una criatura que puedas ver. El objetivo debe hacer una <b>tirada de salvación de Sabiduría</b>, si falla recibe 1d6 de daño psiquico y tiene desventaja en la próxima tirada de ataque que haga, hasta el final de su próximo turno.\n<b>At Higher Levels</b>: Aumenta 1d6 el daño en nivel 5.",
+		"text": "Lanzas una serie de insultos con sutiles encantamientos a una criatura que puedas ver. El objetivo debe hacer una <b>tirada de salvación de Sabiduría</b>, si falla recibe 1d6 de daño psiquico y tiene desventaja en la próxima tirada de ataque que haga, hasta el final de su próximo turno.\n<b>En niveles superiores</b>: Aumenta 1d6 el daño en nivel 5.",
 		"school": "Divination",
 		"level": "Cantrip"
 	},
@@ -58,7 +58,7 @@
 		"range": "60 pies",
 		"components": "V",
 		"duration": "Instantáneo",
-		"text": "Una criatura que puedas ver dentro del rango recupera <b>1d4</b> hit points + tu modificador de hechizo. No tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>At Higher Levels:</b> La curación aumenta en <b>1d4</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"text": "Una criatura que puedas ver dentro del rango recupera <b>1d4</b> hit points + tu modificador de hechizo. No tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>En niveles superiores</b>: La curación aumenta en <b>1d4</b> por cada nivel de <b>slot</b> por encima de 1.",
 		"school": "Evocation",
 		"level": "1"
 	},
@@ -69,7 +69,7 @@
 		"components": "V, S, M",
         "materials": "Un trozo de Mica",
 		"duration": "Instantáneo",
-		"text": "Un repentino y fuerte sonido muy intenso aparece en un punto de tu elección. Cada criatura en una esfera de 10 pies de radio centrada en el punto debe hacer una <b>tirada de salvación de Constitución</b>. Reciben 3d8 daño de trueno si fallan, o la mitad si lo pasan. Criaturas hechas de material inorganico como piedra, cristal o metal, tiran don desventaja. \nObjetos no mágicos que no estén siendo llevados por alguien o agarrados también reciben daño.\n<b>At Higher Levels</b>: Aumenta 1d8 de daño por cada spell slot más allá de nivel 2.",
+		"text": "Un repentino y fuerte sonido muy intenso aparece en un punto de tu elección. Cada criatura en una esfera de 10 pies de radio centrada en el punto debe hacer una <b>tirada de salvación de Constitución</b>. Reciben 3d8 daño de trueno si fallan, o la mitad si lo pasan. Criaturas hechas de material inorganico como piedra, cristal o metal, tiran don desventaja. \nObjetos no mágicos que no estén siendo llevados por alguien o agarrados también reciben daño.\n<b>En niveles superiores</b>: Aumenta 1d8 de daño por cada spell slot más allá de nivel 2.",
 		"school": "Evocation",
 		"level": "2"
 	},

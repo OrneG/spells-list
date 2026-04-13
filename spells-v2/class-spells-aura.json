@@ -28,7 +28,7 @@
 		"range": "60 pies",
 		"components": "V, S",
 		"duration": "Instantáneo",
-		"text": "Un resplandor con forma de llama desciende sobre una criatura que puedas ver. El objetivo debe hacer una tirada de salvación de Destreza, o recibe 1d8 de daño radiante. No tiene ningún tipo de beneficio de cobertura durante esta tirada.\n<b>At Higher Levels</b>: El daño aumenta 1d8 cuando alcanzas el nivel 5.",
+		"text": "Un resplandor con forma de llama desciende sobre una criatura que puedas ver. El objetivo debe hacer una tirada de salvación de Destreza, o recibe 1d8 de daño radiante. No tiene ningún tipo de beneficio de cobertura durante esta tirada.\n<b>En niveles superiores</b>: El daño aumenta 1d8 cuando alcanzas el nivel 5.",
 		"school": "Evocation",
 		"level": "Cantrip"
 	},
@@ -39,7 +39,7 @@
 		"components": "V, M",
         "materials": "Un simbolo sagrado",
 		"duration": "Instantáneo",
-		"text": "Pronuncias una palabra divina, y liberas un resplandor ardiente alrededor tuyo. Cada criatura que elijas a tu alrededor debe hacer una tirada de salvación de Constitución, en caso de fallar, reciben 1d6 de daño radiante\n<b>At Higher Levels</b>: Incrementa 1d6 cuando en nivel 5.",
+		"text": "Pronuncias una palabra divina, y liberas un resplandor ardiente alrededor tuyo. Cada criatura que elijas a tu alrededor debe hacer una tirada de salvación de Constitución, en caso de fallar, reciben 1d6 de daño radiante\n<b>En niveles superiores</b>: Incrementa 1d6 cuando en nivel 5.",
 		"school": "Evocation",
 		"level": "Cantrip"
 	},
