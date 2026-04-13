@@ -5,5 +5,35 @@
         "text": "Marcas a la criatura luego de ser <b>golpeada por un ataque</b>.\nLa primera vez en cada uno de tus turnos que golpees a la criatura marcada y hagas daño (incluido el momento en que la marcaste), agregas <b>1d4</b> extra a la <b>tirada de daño</b>.\nPodes usar una cantidad de marcas igual a tu <b>proficiency bonus</b>.\nAl nivel 6 aumenta a 1d6.",
         "recharge": "Regeneras todas las cargas después de un <b>descanso largo</b>",
         "character": "neryssa"
-    }
+    },
+    {
+		"title": "Ensnaring Strike",
+		"castingTime": "Acción bonus",
+		"range": "Self",
+		"components": "V",
+		"duration": "Concentración, hasta 1 minuto",
+		"text": "La próxima vez que golpees a una criatura con un ataque de arma antes que termine el hechizo, aparecerá una masa retorcida de enredaderas espinosas en el punto de impacto y el objetivo deberá realizar una <b>tirada de salvación de Fuerza</b> o quedar inmobilizado por las enredaderas mágicas hasta que termine el hechizo. Una criatura tamaño Grande o más tiene ventaja en la tirada de salvación. Si el objetivo supera la tirada, las enredaderas se marchitan.\n Mientras esté atrapado, recibe 1d6 de daño perforante al principio de cada uno de sus turnos. La criatura atrapada u otra que pueda tocar a la criatura pueden usar su acción para hacer una tirada de Fuerza contra tu spell save DC. Si lo superan, el objetivo es liberado.\n<b>En niveles superiores</b>: Agregas 1d6 extra de daño por cada spell slot más allá del nivel 1.",
+		"school": "Conjuration",
+		"level": "1"
+	},
+    {
+		"title": "Fog Cloud",
+		"castingTime": "Acción",
+		"range": "120 pies",
+		"components": "V, S",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Creás una esfera de niebla de radio <b>20 pies</b> centrada en un punto en rango. El área está fuertemente oscurecida; se dispersa con viento moderado o más fuerte.\n<b>En niveles superiores:</b> El radio aumenta en <b>20 pies</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Conjuration",
+		"level": "1"
+	},
+	{
+		"title": "Cure Wounds",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Una criatura que toqués recupera <b>1d8</b> hit points + tu modificador de hechizo. El hechizo no tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>En niveles superiores:</b> La curación aumenta en <b>1d8</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"school": "Evocation",
+		"level": "1"
+	}
 ]

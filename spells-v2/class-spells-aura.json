@@ -24,5 +24,67 @@
         "title": "Burning Shield of Karzem",
         "text": "Recibes un <b>+1 al AC</b>, un <b>+1 a las tiradas de ataque</b> y un <b>+1 al daño</b> con cualquier arma de combate cuerpo a cuerpo.\n\nTienes <b>ventaja</b> en las tiradas de iniciativa.\n\nUna vez al día, puedes imponer <b>desventaja</b> a una tirada de ataque hecha por una <b>criatura enemiga</b> contra un <b>aliado</b> que se encuentre a un máximo de <b>30 pies</b> de ti.",
         "object": true
-    }
+    },
+	{
+		"title": "Sacred Flame",
+		"castingTime": "Acción",
+		"range": "60 pies",
+		"components": "V, S",
+		"duration": "Instantáneo",
+		"text": "Un resplandor con forma de llama desciende sobre una criatura que puedas ver. El objetivo debe hacer una tirada de salvación de Destreza, o recibe 1d8 de daño radiante. No tiene ningún tipo de beneficio de cobertura durante esta tirada.\n<b>En niveles superiores</b>: El daño aumenta 1d8 cuando alcanzas el nivel 5.",
+		"school": "Evocation",
+		"level": "Cantrip"
+	},
+	{
+		"title": "Word of Radiance",
+		"castingTime": "Acción",
+		"range": "5 pies",
+		"components": "V, M",
+        "materials": "Un simbolo sagrado",
+		"duration": "Instantáneo",
+		"text": "Pronuncias una palabra divina, y liberas un resplandor ardiente alrededor tuyo. Cada criatura que elijas a tu alrededor debe hacer una tirada de salvación de Constitución, en caso de fallar, reciben 1d6 de daño radiante\n<b>En niveles superiores</b>: Incrementa 1d6 cuando en nivel 5.",
+		"school": "Evocation",
+		"level": "Cantrip"
+	},
+	{
+		"title": "Virtue",
+		"castingTime": "Acción",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "1 ronda",
+		"text": "Tocas a una criatura, si esta tiene por lo menos un punto de vida, gana puntos de vida temporales iguales a 1d4 + tu modificador de Sabiduria. Los puntos de vida temporales desaparecen una vez termine el hechizo.",
+		"school": "Abjuration",
+		"level": "Cantrip"
+	},
+	{
+		"title": "Divine Favor",
+		"castingTime": "Acción bonus",
+		"range": "Self",
+		"components": "V, S",
+		"duration": "Concentración, 1 minuto",
+		"text": "Un rezo incrementa el poder de tu resplandor divino. Hasta que se termine el hechizo, tus ataques de arma hacen un 1d4 extra de daño radiante por cada golpe.",
+		"school": "Evocation",
+		"level": "1"
+	},
+	{
+		"title": "Shield of Fate",
+		"castingTime": "Acción bonus",
+		"range": "60 pies",
+		"components": "V, S, M",
+        "materials": "Un pequeño pergamino con una escritura sagrada",
+		"duration": "Concentración, hasta 10 minutos",
+		"text": "Un área reluciente aparece y rodea a una criatura de tu elección, dandole <b>+2 AC</b> por la duración.",
+		"school": "Abjuration",
+		"level": "1"
+	},
+	{
+		"title": "Magic Weapon",
+		"castingTime": "Acción bonus",
+		"range": "Touch",
+		"components": "V, S",
+		"duration": "Concentración, hasta 1 hora",
+		"text": "Tocas un arma no mágica. Hasta que termine el hechizo, esa arma se vuelve un arma mágica con un <b>+1 en tiradas de ataque y tiradas de daño</b>.",
+		"school": "Transmutation",
+		"level": "2"
+	}
 ]
