@@ -3,14 +3,14 @@
         "title": "Psionic Strike",
         "range": "30 pies",
         "materials": "1 Psionic Energy",
-        "text": "Una vez en cada uno de tus turnos, <b>inmediatamente después de golpear</b> a un objetivo dentro de <b>30 pies</b> con un <b>ataque de arma</b>, puedes gastar un dado de <b>Psionic Energy</b>, tirarlo y causar daño de fuerza igual al <b>resultado + tu modificador de INT</b>.\n Podes forzar a una criatura a que haga una tirada de salvación de Fuerza (DC = 8 + PB + INT mod). Si falla, podes alejarlo <b>5 pies</b>."
+        "text": "Una vez en cada uno de tus turnos, <b>inmediatamente después de golpear</b> a un objetivo dentro de <b>30 pies</b> con un <b>ataque de arma</b>, puedes gastar un dado de <b>Psionic Energy</b>, tirarlo y causar daño de fuerza igual al <b>resultado + tu modificador de Inteligencia</b>.\nPodes forzar a una criatura a que haga una tirada de <b>salvación de Fuerza</b> <i>(DC = 8 + proficency bonus + mod de INT)</i>. Si falla, podes alejarlo <b>5 pies</b>."
     },
     {
         "title": "Protective Field",
         "castingTime": "Reacción",
         "range": "30 pies",
         "materials": "1 Psionic Energy",
-        "text": "Cuando tú u otra criatura que puedas ver reciba daño, puedes usar tu reacción para <b>reducir el daño</b> por el número obtenido en tu <b>Psionic Dice + tu modificador de INT</b>, creando un escudo telequinético momentáneo."
+        "text": "Cuando tú u otra criatura que puedas ver reciba daño, puedes usar tu reacción para <b>reducir el daño</b> por el número obtenido en tu <b>Psionic Dice + tu modificador de Inteligencia</b>, creando un escudo telequinético momentáneo."
     },
     {
         "title": "Telekinetic Movement",
@@ -24,7 +24,7 @@
         "title": "Second Wind",
         "castingTime": "Acción Bonus",
         "range": "Self",
-        "text": "Recuperas <b>puntos de vida</b> iguales a 1d10 + tu nivel.",
+        "text": "Recuperas <b>puntos de vida</b> iguales a <b>1d10 + tu nivel</b>.",
         "recharge": "Una vez por <b>descanso corto o largo</b>"
     },
     {

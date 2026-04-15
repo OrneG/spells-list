@@ -4,7 +4,7 @@
         "castingTime": "Acción",
         "range": "30 pies",
         "materials": "1 Channel Divinity",
-        "text": "Todos los <b>No-muertos</b> que puedan verte u oírte deben hacer una <b>tirada de salvación de Sabiduría</b>. Si fallan, quedan expulsados por 1 minuto o hasta que reciban daño.\nLos no-muertos expulsados deben huir, no pueden hacer reacciones y solo pueden usar <b>Dash</b> o escapar de restricciones de movimiento. Si no tienen a dónde moverse, pueden usar la acción <b>Dodge</b>.",
+        "text": "Todos los <b>no-muertos</b> que puedan verte u oírte deben hacer una <b>tirada de salvación de Sabiduría</b>. Si fallan, quedan expulsados por <b>1 minuto</b> o hasta que reciban daño.\nLos no-muertos expulsados deben huir, no pueden hacer reacciones y solo pueden usar <b>Dash</b> o escapar de restricciones de movimiento. Si no tienen a dónde moverse, pueden usar la acción <b>Dodge</b>.",
         "character": "aura"
     },
     {
@@ -31,7 +31,7 @@
 		"range": "60 pies",
 		"components": "V, S",
 		"duration": "Instantáneo",
-		"text": "Un resplandor con forma de llama desciende sobre una criatura que puedas ver. El objetivo debe hacer una tirada de salvación de Destreza, o recibe 1d8 de daño radiante. No tiene ningún tipo de beneficio de cobertura durante esta tirada.\n<b>En niveles superiores</b>: El daño aumenta 1d8 cuando alcanzas el nivel 5.",
+		"text": "Un resplandor con forma de llama desciende sobre una criatura que puedas ver. El objetivo debe hacer una tirada de <b>salvación de Destreza</b>, o recibe <b>1d8</b> de daño <b>radiante</b>. No tiene ningún tipo de beneficio de cobertura durante esta tirada.\n\n<b>En niveles superiores</b>: El daño aumenta <b>1d8</b> cuando alcanzas el nivel 5.",
 		"school": "Evocation",
 		"level": "Cantrip"
 	},
@@ -42,7 +42,7 @@
 		"components": "V, M",
         "materials": "Un simbolo sagrado",
 		"duration": "Instantáneo",
-		"text": "Pronuncias una palabra divina, y liberas un resplandor ardiente alrededor tuyo. Cada criatura que elijas a tu alrededor debe hacer una tirada de salvación de Constitución, en caso de fallar, reciben 1d6 de daño radiante\n<b>En niveles superiores</b>: Incrementa 1d6 cuando en nivel 5.",
+		"text": "Pronuncias una palabra divina, y liberas un resplandor ardiente alrededor tuyo. Cada criatura que elijas a tu alrededor debe hacer una tirada de <b>salvación de Constitución</b>, en caso de fallar, reciben <b>1d6</b> de daño <b>radiante</b>.\n\n<b>En niveles superiores</b>: Incrementa <b>1d6</b> cuando en nivel 5.",
 		"school": "Evocation",
 		"level": "Cantrip"
 	},
@@ -52,7 +52,7 @@
 		"range": "Touch",
 		"components": "V, S",
 		"duration": "1 ronda",
-		"text": "Tocas a una criatura, si esta tiene por lo menos un punto de vida, gana puntos de vida temporales iguales a 1d4 + tu modificador de Sabiduria. Los puntos de vida temporales desaparecen una vez termine el hechizo.",
+		"text": "Tocas a una criatura, si esta tiene por lo menos un punto de vida, gana puntos de vida temporales iguales a <b>1d4 + tu modificador de Sabiduria</b>.\nLos puntos de vida temporales desaparecen una vez termine el hechizo.",
 		"school": "Abjuration",
 		"level": "Cantrip"
 	},
@@ -62,7 +62,7 @@
 		"range": "Self",
 		"components": "V, S",
 		"duration": "Concentración, 1 minuto",
-		"text": "Un rezo incrementa el poder de tu resplandor divino. Hasta que se termine el hechizo, tus ataques de arma hacen un 1d4 extra de daño radiante por cada golpe.",
+		"text": "Un rezo incrementa el poder de tu resplandor divino. Hasta que se termine el hechizo, tus ataques de arma hacen un <b>1d4 extra</b> de daño <b>radiante</b> por cada golpe.",
 		"school": "Evocation",
 		"level": "1"
 	},

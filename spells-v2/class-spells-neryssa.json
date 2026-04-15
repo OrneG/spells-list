@@ -2,7 +2,7 @@
     {
         "title": "Favored Foe",
 		"duration": "Concentración, hasta 1 minuto",
-        "text": "Marcas a la criatura luego de ser <b>golpeada por un ataque</b>.\nLa primera vez en cada uno de tus turnos que golpees a la criatura marcada y hagas daño (incluido el momento en que la marcaste), agregas <b>1d4</b> extra a la <b>tirada de daño</b>.\nPodes usar una cantidad de marcas igual a tu <b>proficiency bonus</b>.\nAl nivel 6 aumenta a 1d6.",
+        "text": "Marcas a la criatura luego de ser <b>golpeada por un ataque</b>.\nLa primera vez en cada uno de tus turnos que golpees a la criatura marcada y hagas daño (incluido el momento en que la marcaste), agregas <b>1d4</b> extra a la <b>tirada de daño</b>.\nPodes usar una cantidad de marcas igual a tu <b>proficiency bonus</b>.\nAl nivel 6 aumenta a <b>1d6</b>.",
         "recharge": "Regeneras todas las cargas después de un <b>descanso largo</b>",
         "character": "neryssa"
     },
@@ -12,7 +12,7 @@
 		"range": "Self",
 		"components": "V",
 		"duration": "Concentración, hasta 1 minuto",
-		"text": "La próxima vez que golpees a una criatura con un ataque de arma antes que termine el hechizo, aparecerá una masa retorcida de enredaderas espinosas en el punto de impacto y el objetivo deberá realizar una <b>tirada de salvación de Fuerza</b> o quedar inmobilizado por las enredaderas mágicas hasta que termine el hechizo. Una criatura tamaño Grande o más tiene ventaja en la tirada de salvación. Si el objetivo supera la tirada, las enredaderas se marchitan.\n Mientras esté atrapado, recibe 1d6 de daño perforante al principio de cada uno de sus turnos. La criatura atrapada u otra que pueda tocar a la criatura pueden usar su acción para hacer una tirada de Fuerza contra tu spell save DC. Si lo superan, el objetivo es liberado.\n<b>En niveles superiores</b>: Agregas 1d6 extra de daño por cada spell slot más allá del nivel 1.",
+		"text": "La próxima vez que golpees a una criatura con un ataque de arma antes que termine el hechizo, aparecerá una masa retorcida de enredaderas espinosas en el punto de impacto y el objetivo deberá realizar una <b>tirada de salvación de Fuerza</b> o quedar inmobilizado hasta que termine el hechizo. Una criatura tamaño <i>Grande o más</i> tiene ventaja en la tirada de salvación. Si el objetivo supera la tirada, las enredaderas se marchitan.\nMientras esté atrapado, recibe <b>1d6</b> de daño <b>perforante</b> al principio de cada uno de sus turnos. La criatura atrapada u otra que pueda tocarla, pueden usar su <b>acción</b> para hacer una tirada de <b>Fuerza</b> contra tu <b>DC de salvación de hechizo</b>. Si lo superan, el objetivo es liberado.\n<b>En niveles superiores</b>: Agregas <b>1d6</b> extra de daño por cada nivel de <b>slot</b> por encima de 1.",
 		"school": "Conjuration",
 		"level": "1"
 	},
@@ -32,7 +32,7 @@
 		"range": "Touch",
 		"components": "V, S",
 		"duration": "Instantáneo",
-		"text": "Una criatura que toqués recupera <b>1d8</b> hit points + tu modificador de hechizo. El hechizo no tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>En niveles superiores:</b> La curación aumenta en <b>1d8</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"text": "Una criatura que toqués recupera <b>1d8 hit points + tu modificador de hechizo</b>. El hechizo no tiene efecto en <b>no-muertos</b> ni <b>constructs</b>.\n<b>En niveles superiores:</b> La curación aumenta en <b>1d8</b> por cada nivel de <b>slot</b> por encima de 1.",
 		"school": "Evocation",
 		"level": "1"
 	}
