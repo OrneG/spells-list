@@ -80,7 +80,7 @@
 
         .label,
         .chip,
-        .level span {
+        .level {
             font-size: var(--fs-md);
         }
 
@@ -117,7 +117,8 @@
         }
 
         .chip,
-        .label, .footer .note {
+        .label,
+        .footer .note {
             font-variant: small-caps;
         }
 
@@ -231,13 +232,13 @@
             position: relative;
         }
 
-        .card > * {
+        .card>* {
             position: relative;
             z-index: 1;
         }
 
         .object {
-            background: linear-gradient(320deg,rgba(224, 224, 224, 0.6) 10%, var(--label) 20%, rgba(239, 191, 4, 0.3) 30%, var(--label) 40%, rgba(224, 224, 224, 0.8) 50%, var(--label) 60%, rgba(239, 191, 4, 0.3) 70%, var(--label) 80%, rgba(224, 224, 224, 0.6) 90%);
+            background: linear-gradient(320deg, rgba(224, 224, 224, 0.6) 10%, var(--label) 20%, rgba(239, 191, 4, 0.3) 30%, var(--label) 40%, rgba(224, 224, 224, 0.8) 50%, var(--label) 60%, rgba(239, 191, 4, 0.3) 70%, var(--label) 80%, rgba(224, 224, 224, 0.6) 90%);
         }
 
         .card::after {
@@ -327,8 +328,15 @@
 
         .level {
             width: 60px;
-            font-size: var(--fs-lg);
             border: none;
+            & span {
+                font-size: var(--fs-lg);
+            }
+        }
+
+        .cantrip {
+            font-size: 11px;
+            justify-content: center;
         }
 
         .default {
@@ -401,7 +409,7 @@
         function createCard(spell = {}) {
             const {
                 title = 'Sin título', castingTime = '', range = '', components = '',
-                duration = '', materials = '', text = 'Descripción…', school = '', level = '', recharge = '', character = '', object = false
+                duration = '', materials = '', text = 'Descripción…', school = '', level = '', recharge = '', character = '', fontSize = '', object = false
             } = spell;
             const card = document.createElement('article');
             card.className = (object ? 'card object ' : 'card ') + (school ? 'school-' + slugify(school) : 'default');
@@ -419,7 +427,7 @@
             ${object ? `<div class='chip'>Objeto Mágico</div>` : ''}
             ${recharge ? `<div class='note'>${recharge}</div>` : ''}
             ${school ? `<div class='chip'>${school}</div>
-                        <div class='chip level'><span>Level</span>${level}</div>` : ''}
+                        <div class='chip level${level.toLowerCase() == 'cantrip' ? ` cantrip'>${level}` : `'>Level<span>${level}</span>`}</div>` : ''}
             </footer>`;
 
             requestAnimationFrame(() => {
@@ -430,15 +438,19 @@
 
             const textEl = card.querySelector('.text');
 
-            let size = 11;
-            textEl.style.fontSize = `${size}px`;
+            if (fontSize) {
+                textEl.style.fontSize = `${fontSize}px`;
+            } else {
+                let fontSize = 11;
+                textEl.style.fontSize = `${fontSize}px`;
 
-            requestAnimationFrame(() => {
-                while (textEl.scrollHeight > textEl.clientHeight && size > 9) {
-                    size--;
-                    textEl.style.fontSize = `${size}px`;
-                }
-            });
+                requestAnimationFrame(() => {
+                    while (textEl.scrollHeight > textEl.clientHeight && fontSize > 9) {
+                        fontSize--;
+                        textEl.style.fontSize = `${fontSize}px`;
+                    }
+                });
+            }
 
             return card;
         }
