@@ -4,7 +4,7 @@
         "castingTime": "Acción Bonus",
         "range": "60 pies",
         "materials": "1 Bardic Inspiration",
-        "text": "El objetivo obtiene un dado de Bardic Inspiration.\nEn los proximos <b>10 minutos</b>, la criatura puede tirar el dado y sumar el número a una tirada de habilidad, ataque o salvación que haga. Puede tirarlo después de tirar su d20, pero antes de saber si fue un éxito o fracaso.\nUna vez tirado, el dado se pierde, la criatura no puede tener mas de una Bardic Inspiration.\n\nTenes tantos dados de Bardic Inspiration como tu modificador de <b>Carisma</b>.",
+        "text": "El objetivo obtiene un dado de Bardic Inspiration.\nEn los proximos <b>10 minutos</b>, la criatura puede tirar el dado y sumar el número a una tirada de habilidad, ataque o salvación que haga. Puede tirarlo después de tirar su d20, pero <b>antes de saber si fue un éxito o fracaso</b>.\nUna vez tirado, el dado se pierde, la criatura no puede tener mas de una Bardic Inspiration.\n\nTenes tantos dados de Bardic Inspiration como tu modificador de <b>Carisma</b>.",
         "recharge": "Regeneras todas las cargas después de un <b>descanso largo</b>",
 		"fontSize": 10,
 		"character": "aerith"
@@ -14,7 +14,7 @@
         "castingTime": "Acción Bonus",
         "range": "30 pies",
         "materials": "1 Bardic Inspiration",
-        "text": "Tiras <b>1 dado</b> de Bardic Inspiration para consultar la tabla de espiritus, esa historia queda en tu mente hasta que uses su efecto, o termines un descanso corto o largo.\n\nPodes usar una <b>acción</b> para elegir una criatura que veas (podes ser vos mismo) para que sea el objetivo del efecto de la historia. Una vez que lo hagas, no vas a poder usar el efecto denuevo hasta que vuelvas a tirar el dado de Bardic Inspiration.\n\nSolo podes tener una historia en mente a la vez, y si tiras dado para consultar la tabla, terminas automaticamente el efecto de la historia anterior.\n\nSi pide una tirada de salvación, usas tu <b>spell save DC</b>.",
+        "text": "Tiras <b>1 dado</b> de Bardic Inspiration para consultar la tabla de espiritus, esa historia queda en tu mente hasta que uses su efecto, o termines un descanso corto o largo.\n\nPodes usar una <b>acción</b> para elegir una criatura que veas (podes ser vos mismo) para que sea el objetivo del efecto de la historia. Una vez que lo hagas, no vas a poder usar el efecto denuevo hasta que vuelvas a tirar el dado de Bardic Inspiration.\n\nSolo podes tener <b>una historia en mente a la vez</b>, y si tiras dado para consultar la tabla, terminas automaticamente el efecto de la historia anterior.\n\nSi pide una tirada de salvación, usas tu <b>DC de salvación de hechizo</b>.",
 		"fontSize": 9,
 		"character": "aerith"
     },
@@ -22,9 +22,9 @@
         "title": "Radiant Soul",
         "castingTime": "Acción",
         "duration": "1 minuto",
-        "text": "Tus ojos brillan y dos alas luminosas que te permiten <b>volar</b> aparecen en tu espalda, \nUna vez en cada uno de tus turnos, cuando hagas daño con un ataque o hechizo podes sumar daño radiante extra, igual a tu <b>proficiency bonus</b>.\n\nPodes terminar el efecto como una <b>acción bonus</b>.",
+        "text": "Tus ojos brillan y dos alas luminosas que te permiten <b>volar</b> aparecen en tu espalda, \nUna vez en cada uno de tus turnos, cuando hagas daño con un ataque o hechizo podes sumar <b>daño radiante extra</b>, igual a tu <b>proficiency bonus</b>.\n\nPodes terminar el efecto como una <b>acción bonus</b>.",
         "recharge": "Una vez por <b>descanso largo</b>",
-		"character": "aerith2"
+		"character": "aerith"
     },
 	{
 		"title": "Guidance",
@@ -32,7 +32,7 @@
 		"range": "Touch",
 		"components": "V, S",
 		"duration": "Concentración, 1 minuto",
-		"text": "Tocas una criatura dispuesta a recibir el beneficio. Una vez antes de que termine el hechizo, el objetivo puede tirar <b>1d4</b> y agregarlo al valor de una tirada de habilidad de su elección. Puede tirar el dado antes o después de hacer la tirada de habilidad. Luego, el hechizo termina.",
+		"text": "Tocas una criatura dispuesta a recibir el beneficio. Una vez antes de que termine el hechizo, el objetivo puede tirar <b>1d4</b> y agregarlo al valor de una <b>tirada de habilidad</b> de su elección. Puede tirar el dado antes o después de hacer la tirada de habilidad. Luego, el hechizo termina.",
 		"school": "Divination",
 		"level": "Cantrip"
 	},
@@ -53,7 +53,7 @@
 		"components": "V, S, M",
         "materials": "Un pequeño pedazo de cable de cobre",
 		"duration": "1 ronda",
-		"text": "Apuntas tu dedo hacian una criatura. Ella, y solo ella, recibe un mensaje que puede responder en un susurro que solo vos podes escuchar.\n\nPodes usar este hechizo a travez de objetos sólidos si sos conocido de esa persona, y sabes que no hay una barrera de por medio: Silencio Mágico, 1 pie de piedra, 1 pulgada de un metal común, una pequeña lamina de plomo, o 3 pies de madera, todos estos bloquean el hechizo. Este no es necesario que siga una linea recta, puede viajar libremente doblando en esquinas y por aperturas pequeñas.",
+		"text": "Apuntas tu dedo hacian una criatura. Ella, y solo ella, recibe un mensaje que puede responder en un susurro que solo vos podes escuchar.\n\nPodes usar este hechizo a travez de objetos sólidos si sos conocido de esa persona, y sabes que no hay una barrera de por medio: <i>Silencio Mágico, 1 pie de piedra, 1 pulgada de un metal común, una pequeña lamina de plomo, o 3 pies de madera,</i> todos estos bloquean el hechizo. Este no es necesario que siga una linea recta, puede viajar libremente doblando en esquinas y por aperturas pequeñas.",
 		"school": "Transmutation",
 		"level": "Cantrip"
 	},
@@ -63,7 +63,7 @@
 		"range": "60 pies",
 		"components": "V",
 		"duration": "Instantáneo",
-		"text": "Una criatura que puedas ver dentro del rango recupera <b>1d4 hit points + tu modificador de hechizo</b>. No tiene efecto en <b>undead</b> ni <b>constructs</b>.\n<b>En niveles superiores</b>: La curación aumenta en <b>1d4</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"text": "Una criatura que puedas ver dentro del rango recupera <b>1d4 puntos de vida + tu modificador de hechizo</b>. No tiene efecto en <b>undead</b> ni <b>constructs</b>.\n\n<b>En niveles superiores</b>: La curación aumenta en <b>1d4</b> por cada nivel de <b>slot</b> por encima de 1.",
 		"school": "Evocation",
 		"level": "1"
 	},
@@ -74,7 +74,7 @@
 		"components": "V, S, M",
         "materials": "Un trozo de Mica",
 		"duration": "Instantáneo",
-		"text": "Un repentino y fuerte sonido muy intenso aparece en un punto de tu elección. Cada criatura en una esfera de 10 pies de radio centrada en el punto debe hacer una <b>tirada de salvación de CONST</b>. Reciben <b>3d8</b> daño de trueno si fallan, o la mitad si lo pasan. Criaturas hechas de material inorganico como piedra, cristal o metal, tiran con desventaja. \nObjetos no mágicos que no estén siendo llevados por alguien o agarrados también reciben daño.\n\n<b>En niveles superiores</b>: Aumenta <b>1d8</b> de daño por cada spell slot más allá de nivel 2.",
+		"text": "Un repentino y fuerte sonido muy intenso aparece en un punto de tu elección. Cada criatura en una esfera de <b>10 pies de radio</b> centrada en el punto debe hacer una <b>tirada de salvación de Constitución</b>. Reciben <b>3d8</b> daño de <b>trueno</b> si fallan, o la mitad si lo pasan. Criaturas hechas de material inorganico como piedra, cristal o metal, tiran con desventaja. \nObjetos no mágicos que no estén siendo llevados por alguien o agarrados también reciben daño.\n\n<b>En niveles superiores</b>: Aumenta <b>1d8</b> de daño por cada spell slot más allá de nivel 2.",
 		"school": "Evocation",
 		"level": "2"
 	},
@@ -96,7 +96,7 @@
 		"components": "V, S, M",
         "materials": "Un poco de lana",
 		"duration": "Concentración, hasta 10 minutos",
-		"text": "Creas la imagen de un objeto, criatura o algún fenomeno visible que no sea más grande que un cubo de <b>15 pies</b>. La imagen aparece en un punto en rango y dura el total del hechizo. Es puramente visual, no tiene sonido, olor ni ningún efecto sensorial.\nPodes usar tu acción para hacer que la imagen se mueva a cualquier punto dentro del rango. Si la imagen cambia de ubicación, podes alterar su apariencia para que el movimiento parezca natural.\nInteracciones fisicas con la imagen revelan que es una ilusión, porque las cosas lo atraviezan. Si una criatura usa una acción para examinar la imagen puede determinar que es una ilusión con una tirada de Investigación contra tu Spell save DC. Si supera la tirada, ademas puede ver a travez de la imagen.",
+		"text": "En un punto en rango, creas la imagen de un objeto, criatura o algún fenomeno visible que no sea más grande que un cubo de <b>15 pies</b>. Es puramente visual, no tiene sonido, olor ni ningún efecto sensorial. Podes usar tu acción para hacer que la imagen se mueva naturalmente a cualquier punto dentro del rango. \nInteracciones fisicas con la imagen revelan que es una ilusión, porque las cosas la atraviezan. Si una criatura usa una acción para examinarla, puede determinar que es una ilusión con una tirada de <b>Investigación</b> contra tu <b>Spell save DC</b>. Si supera la tirada, puede ver a travez de ella.",
 		"school": "Illusion",
 		"level": "1"
 	},
@@ -107,7 +107,7 @@
 		"components": "V, S, M",
         "materials": "Un poco de arena o petalos de rosas",
 		"duration": "Concentración, hasta 1 minuto",
-		"text": "Cada criatura de tu elección en una esfera de 5 pies de radio, centrada en un punto dentro del rango, debe hacer una <b>tirada de salvación de Sabiduría</b> o quedar incapacitaods hasta el final de su próximo turno, donde van a poder repetir la tirada de salvación. Si la criatura falla la segunda tirada, gana el estado de Inconciente por la duración. El hechizo termina si el objetivo recibe daño o si alguien a 5 pies de el gasta una acción para despertarlo.\nCriaturas que no duermen, como los elfos, o que tengan inmunidad al estado de Exausto, automaticamente superan la tirada.",
+		"text": "Cada criatura de tu elección en una esfera de <b>5 pies de radio</b>, centrada en un punto dentro del rango, debe hacer una <b>tirada de salvación de Sabiduría</b> o quedar <b>incapacitados</b> hasta el final de su próximo turno, donde van a poder repetir la tirada de salvación. Si la criatura falla la segunda tirada, gana el estado de <b>Inconciente</b> por la duración. El hechizo termina si el objetivo recibe daño o si alguien a <b>5 pies</b> de el gasta una <b>acción</b> para despertarlo.\nCriaturas que no duermen, como los elfos, o que tengan inmunidad al estado de Exausto, automaticamente superan la tirada.",
 		"school": "Enchantment",
 		"level": "1"
 	}
