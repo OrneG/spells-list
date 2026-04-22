@@ -32,7 +32,7 @@
 		"range": "Touch",
 		"components": "V, S",
 		"duration": "Concentración, 1 minuto",
-		"text": "Tocas una criatura dispuesta a recibir el beneficio. Una vez antes de que termine el hechizo, el objetivo puede tirar <b>1d4</b> y agregarlo al valor de una <b>tirada de habilidad</b> de su elección. Puede tirar el dado antes o después de hacer la tirada de habilidad. Luego, el hechizo termina.",
+		"text": "Tocas una criatura dispuesta y elegís una habilidad. Hasta que termine el hechizo, el objetivo agrega <b>1d4</b> al valor de cualquier <b>tirada de habilidad</b> usando la habilidad elegida.",
 		"school": "Divination",
 		"level": "Cantrip"
 	},
@@ -42,7 +42,7 @@
 		"range": "60 pies",
 		"components": "V",
 		"duration": "Instantaneo",
-		"text": "Lanzas una serie de insultos con sutiles encantamientos a una criatura que puedas ver. El objetivo debe hacer una <b>tirada de salvación de Sabiduría</b>, si falla recibe <b>1d6</b> de daño <b>psíquico</b> y tiene <b>desventaja</b> en la próxima tirada de ataque que haga, hasta el final de su próximo turno.\n<b>En niveles superiores</b>: Aumenta <b>1d6</b> el daño en nivel 5.",
+		"text": "Lanzas una serie de insultos con sutiles encantamientos a una criatura que puedas ver u oir dentro del rango. El objetivo debe hacer una <b>tirada de salvación de Sabiduría</b>, si falla recibe <b>1d6</b> de daño <b>psíquico</b> y tiene <b>desventaja</b> en la próxima tirada de ataque que haga, hasta el final de su próximo turno.\n<b>En niveles superiores</b>: Aumenta <b>1d6</b> el daño en nivel 5.",
 		"school": "Divination",
 		"level": "Cantrip"
 	},
@@ -51,9 +51,9 @@
 		"castingTime": "Acción",
 		"range": "120 pies",
 		"components": "V, S, M",
-        "materials": "Un pequeño pedazo de cable de cobre",
+        "materials": "Un cable de cobre",
 		"duration": "1 ronda",
-		"text": "Apuntas tu dedo hacian una criatura. Ella, y solo ella, recibe un mensaje que puede responder en un susurro que solo vos podes escuchar.\n\nPodes usar este hechizo a travez de objetos sólidos si sos conocido de esa persona, y sabes que no hay una barrera de por medio: <i>Silencio Mágico, 1 pie de piedra, 1 pulgada de un metal común, una pequeña lamina de plomo, o 3 pies de madera,</i> todos estos bloquean el hechizo. Este no es necesario que siga una linea recta, puede viajar libremente doblando en esquinas y por aperturas pequeñas.",
+		"text": "Apuntas tu dedo hacian una criatura. Ella, y solo ella, recibe un mensaje que puede responder en un susurro que solo vos podes escuchar.\n\nPodes usar este hechizo a travez de objetos sólidos si sos conocido del objetivo y sabés que está al otro lado de la barrera. <i>Silencio Mágico, 1 pie de piedra, metal o madera o una pequeña lamina de plomo</i>, bloquean el hechizo.",
 		"school": "Transmutation",
 		"level": "Cantrip"
 	},
@@ -63,7 +63,7 @@
 		"range": "60 pies",
 		"components": "V",
 		"duration": "Instantáneo",
-		"text": "Una criatura que puedas ver dentro del rango recupera <b>1d4 puntos de vida + tu modificador de hechizo</b>. No tiene efecto en <b>undead</b> ni <b>constructs</b>.\n\n<b>En niveles superiores</b>: La curación aumenta en <b>1d4</b> por cada nivel de <b>slot</b> por encima de 1.",
+		"text": "Una criatura que puedas ver dentro del rango recupera <b>2d4 puntos de vida + tu modificador de hechizo</b>.\n\n<b>En niveles superiores</b>: La curación aumenta en <b>2d4</b> por cada nivel de <b>slot</b> por encima de 1.",
 		"school": "Evocation",
 		"level": "1"
 	},

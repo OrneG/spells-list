@@ -3,23 +3,23 @@
         "title": "Wild Companion",
         "castingTime": "Acción",
         "materials": "1 Wild Shape",
-        "text": "Se usa como si fuese el hechizo <b>Find familiar</b> sin componentes materiales, dura cantidad de horas como la mitad de tu nivel de druida, redondeado para abajo.",
+        "text": "Se usa como si fuese el hechizo <b>Find familiar</b> sin componentes materiales.\nEl familiar es un fey y dura hasta que termines un <b>descanso largo</b>.",
         "character": "lirael"
     },
     {
-		"title": "Fey Step",
-		"castingTime": "Acción bonus",
-		"range": "30 pies",
-		"text": "Based on your current season:\n• <b>Autumn.</b> Immediately after you teleport, up to two creatures within 10 feet of you must succeed on a Wisdom saving throw or be **charmed** until the end of your next turn.\n• <b>Winter.</b> One creature within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be <b>frightened</b> of you until the end of your next turn.\n• <b>Spring.</b> You can teleport one willing creature of your choice that you can see within 5 feet of you. The creature teleports to an unoccupied space of your choice within <b>30 feet</b> of you.\n• <b>Summer.</b> Immediately after you teleport, each creature of your choice within 5 feet of you takes **fire damage equal to 2**. You can use this trait <b>2 times</b>, regaining all uses after a <b>long rest</b>.",
-        "recharge": "Una vez por <b>descanso largo</b>",
-        "character": "lirael"
-	},
-    {
-        "title": "Spirit Totem",
+        "title": "Fey Step",
         "castingTime": "Acción bonus",
+        "range": "30 pies",
+        "text": "Basado en tu estación actual:\n• <b>Autumn.</b> Immediately after you teleport, up to two creatures within 10 feet of you must succeed on a Wisdom saving throw or be **charmed** until the end of your next turn.\n• <b>Winter.</b> One creature within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be <b>frightened</b> of you until the end of your next turn.\n• <b>Spring.</b> You can teleport one willing creature of your choice that you can see within 5 feet of you. The creature teleports to an unoccupied space of your choice within <b>30 feet</b> of you.\n• <b>Summer.</b> Immediately after you teleport, each creature of your choice within <b>5 feet</b> of you takes <b>fire damage equal to 2</b>.",
+        "recharge": "Hasta dos veces por <b>descanso largo</b>",
+        "character": "lirael"
+    },
+    {
+        "title": "Land’s Aid",
+        "castingTime": "Acción",
         "range": "60 pies",
-        "text": "Invocas un espíritu de la naturaleza que crea un área de 30 pies de radio y duración de 1 minuto. Puede moverse como una acción bonus a un punto que puedas ver hasta 60 pies, el efecto depende del espíritu que elijas:\n\n• <B>Oso</b>: Las criaturas que elijas en el rango ganan puntos de vida temporales igual a 5 + nivel de druida, además de ventaja en tiradas de habilidad y salvación de Fuerza.\n• <b>Aguila</b>: Usando tu reacción, podes darle ventaja a una tirada de ataque que se realize a un objetivo dentro del área. Los aliados ganana ventaja en tiradas de Percepción.\n• <b>Unicornio</b>: Tus aliados ganan ventaja en tiradas para detectar criaturas. Cuando gastes un spell slot en un hechizo de curación (para curar alguien dentro o fuera del aura), cada criatura que elijas dentro del aura puede también curarse puntos de vida iguales a tu nivel de druida.",
-        "recharge": "Una vez por <b>descanso corto o largo</b>",
+        "materials": "1 Wild Shape",
+        "text": "Flores que otorgan vitalidad y espinas que drenan vida aparecen momentáneamente en una esfera de <b>10 pies de radio</b> centrada en ese punto dentro del rango.\n\nCada criatura de tu elección dentro de la esfera debe realizar una <b>tirada de salvación de Constitución</b> contra tu <b>CD de salvación de hechizo</b>, recibiendo <b>2d6</b> de daño <b>necrótico</b> si falla, o la mitad de ese daño si tiene éxito. Una criatura de tu elección dentro del área recupera <b>2d6 puntos de golpe</b>.\n\n<b>En niveles superiores</b>: El daño y la curación aumentan en <b>1d6</b> cuando alcanzas el nivel 10 de druida (<b>3d6</b>).",
         "character": "lirael"
     },
     {
@@ -28,25 +28,43 @@
         "text": "Este anillo de madera posee cuatro filamentos metálicos trenzados. Cada efecto puede usarse una vez al día, dependiendo de tu temporada.\n\n• <b>Primavera</b>. Puedes lanzar <b>Charm Person</b>. La criatura no siente que ha sido hechizada mágicamente, sino que se dejó llevar por tu presencia primaveral.\n• <b>Verano</b>. Ganas proficiency en <b>Intimidacion</b>. Si ya la tienes, ganas ventaja en sus tiradas.\n• <b>Otoño</b>. Puedes lanzar <b>Goodberry</b>. Cada baya creada otorga 1d4 puntos de golpe temporales al ser consumida.\n• <b>Invierno</b>. Cuando hagas una tirada de <b>Insight</b>, puedes tirar nuevamente y quedarte con ese resultado. Al hacerlo, tu expresión se vuelve fría y distante hasta el final de tu próximo descanso corto."
     },
     {
-        "title": "Magic Stone",
-        "castingTime": "Acción bonus",
+        "title": "Guidance",
+        "castingTime": "Acción",
         "range": "Touch",
         "components": "V, S",
-		"duration": "Instantaneo",
-        "text": "Tocas de una a tres piedras pequeñas y las imbuis con mágia. Se pueden usar para hacer ataques mágicos de rango tirandolas con una gomera o con la mano. Si son arrojadas, tienen un rango de <b>60 pies</b>. Si es otra persona que ataca con la piedra, agrega tu modificador de habilidad de hechizo cuando haga tirada de ataque, no el suyo. Al golpear, toma daño contundente igual a 1d6 + modificador de hechizo. Sea que la piedra golpee o no, termina el hechizo.\nSi volves a usar el hechizo, las anteriores piedras pierden su efecto mágico.",
-        "character": "lirael",
-        "school": "Transmutation",
-		"level": "Cantrip"
+        "duration": "Concentración, 1 minuto",
+        "text": "Tocas una criatura dispuesta y elegís una habilidad. Hasta que termine el hechizo, el objetivo agrega <b>1d4</b> al valor de cualquier <b>tirada de habilidad</b> usando la habilidad elegida.",
+        "school": "Divination",
+        "level": "Cantrip"
     },
     {
         "title": "Poison Spray",
         "castingTime": "Acción",
-        "range": "10 pies",
+        "range": "30 pies",
         "components": "V, S",
-		"duration": "Instantaneo",
-        "text": "Extendes tu mano hacia una criatura que puedas ver, la cual debe hacer una <b>tirada de salvación de Constitución</b>, si falla recibe 1d12 de daño de veneno.",
-        "character": "lirael",
+        "duration": "Instantaneo",
+        "text": "Rociás con un spray de veneno a una criatura dentro del rango. Hacés una tirada de ataque, si pegás, haces <b>1d12</b> de daño de <b>veneno</b>.",
         "school": "Conjuration",
-		"level": "Cantrip"
+        "level": "Cantrip"
+    },
+    {
+        "title": "Produce Flame",
+        "castingTime": "Acción bonus",
+        "range": "Personal",
+        "components": "V, S",
+        "duration": "10 minutos",
+        "text": "Una llama titilante aparece en tu mano y permanece allí durante la duración. Mientras está activa, la llama no emite calor ni enciende nada, y emite <b>luz brillante en un radio de 20 pies</b> y <b>luz tenue por 20 pies adicionales</b>. El hechizo termina si lo lanzas nuevamente.\n\nHasta que el hechizo termine, puedes usar una <b>acción mágica</b> para arrojar fuego a una criatura u objeto dentro de <b>60 pies</b>. Realiza un <b>ataque de hechizo a distancia</b>. Si impacta, el objetivo recibe <b>1d8</b> de daño de <b>fuego</b>.\n\n<b>En niveles superiores</b>: El daño aumenta en <b>1d8</b> al alcanzar los niveles 5 (<b>2d8</b>) y 11 (<b>3d8</b>).",
+        "school": "Conjuration",
+        "level": "Cantrip"
+    },
+    {
+        "title": "Starry Wisp",
+        "castingTime": "Acción",
+        "range": "60 pies",
+        "components": "V, S",
+        "duration": "Instantáneo",
+        "text": "Lanzas una mota de luz a una criatura u objeto dentro del rango. Realiza un <b>ataque de hechizo a distancia</b> contra el objetivo. Si impactas, el objetivo recibe <b>1d8 de daño radiante</b>, y hasta el final de tu siguiente turno, emite <b>luz tenue en un radio de 10 pies</b> y no puede beneficiarse de la condición de <b>invisible</b>.\n\n<b>En niveles superiores</b>: El daño aumenta en <b>1d8</b> al alcanzar los niveles 5 (<b>2d8</b>) y 11 (<b>3d8</b>).",
+        "school": "Evocation",
+        "level": "Cantrip"
     }
 ]

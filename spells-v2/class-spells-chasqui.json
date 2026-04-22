@@ -2,37 +2,37 @@
     {
         "title": "Tides of Chaos",
         "materials": "1 Tide of Chaos",
-        "text": "Puedes obtener <b>ventaja</b> en una <b>tirada de ataque, habilidad o tirada de salvación</b>.\nEn cualquier momento antes de recuperar este uso, el DM puede hacer que tires en la <b>tabla de Wild Magic Surge</b> inmediatamente después de lanzar un hechizo. Luego recuperas el uso de esta característica.",
+        "text": "Puedes obtener <b>ventaja</b> en una <b>tirada de ataque, habilidad o tirada de salvación</b>.\n\nEn cualquier momento antes de recuperar este uso, el DM puede hacer que tires en la <b>tabla de Wild Magic Surge</b> inmediatamente después de lanzar un hechizo. Luego recuperas el uso de esta característica.",
         "recharge": "Una vez por <b>descanso largo</b>"
     },
     {
         "title": "Quickened Spell",
         "materials": "2 Sorcery points",
-        "text": "Cuando <b>lanzas un hechizo</b> como 1 acción, podes cambiarlo a 1 acción bonus en este lanzamiento."
+        "text": "Cuando <b>lanzas un hechizo</b> como 1 <b>acción</b>, podes cambiarlo a 1 <b>acción bonus</b> en este lanzamiento."
     },
     {
         "title": "Subtle Spell",
         "materials": "1 Sorcery point",
-        "text": "Cuando lanzas un hechizo, podes lanzarlo sin componentes somáticos ni verbales."
+        "text": "Cuando lanzas un hechizo, podes lanzarlo <i>sin componentes somáticos ni verbales</i>."
     },
     {
         "title": "Flexible Casting",
         "castingTime": "Acción Bonus",
         "materials": "Sorcery point o Spell Slot",
-        "text": "Puedes transformar <b>Sorcery points</b> no gastados en un <b>spell slot</b>, que desaparecen cuando terminas un descanso largo.\n O puedes gastar un <n>spell slot</b> y ganar una cantidad de <b>sorcery points</b> igual al nivel de ese slot.\n\n• Spell slot nivel 1 -> 2 Sorcery points\n• Spell slot nivel 2 -> 3 Sorcery points\n• Spell slot nivel 3 -> 5 Sorcery points\n• Spell slot nivel 4 -> 6 Sorcery points"
+        "text": "Puedes transformar <b>Sorcery points</b> no gastados en un <b>spell slot</b>, que desaparecen cuando terminas un descanso largo.\n\nO puedes gastar un <n>spell slot</b> y ganar una cantidad de <b>sorcery points</b> igual al nivel de ese slot.\n\n• Spell slot nivel <b>1</b> -> <b>2</b> Sorcery points\n• Spell slot nivel <b>2</b> -> <b>3</b> Sorcery points\n• Spell slot nivel <b>3</b> -> <b>5</b> Sorcery points\n• Spell slot nivel <b>4</b> -> <b>6</b> Sorcery points"
     },
     {
         "title": "Orb of Glimmerdoom",
         "object": true,
         "text": "Siempre que lances un hechizo usando un <b>spell slot</b>, tira 1d20, si sale un 1, activas tu <b>Wild Magic Surge</b>.\n\nPuedes utilizar el hechizo <b>Detect Magic</b> una vez al día sin gastar spell slots."
     },
-    	{
+    {
 		"title": "Chaos Bolt",
 		"castingTime": "Acción",
 		"range": "120 pies",
 		"components": "V, S",
 		"duration": "Instantáneo",
-		"text": "Lanzas una maza ondulante de energia caótica a una criatura en rango. Realiza un ataque mágico de rango, la criatura objetivo recibe <b>2d8 + 1d6</b> de daño.\nElegí uno de los d8, ese dado determina el tipo del daño. Si en ambos d8 salió el mismo número, la energía caótica salta del objetivo a otro que vos elijas a 30 pies de el. Realizá otro ataque magico de rango, otra tirada de daño, este puede volver a saltar a otro objetivo.\nUna criatura puede ser dañada por este hechizo una vez por casteo.\n\nEn niveles superiores: Usando un spell slot de nivel 2 o mayor, cada objetivo recibe 1d6 extra de daño por cada slot por arriba de 1. ",
+		"text": "Lanzas una maza ondulante de energia caótica a una criatura en rango. Realiza un ataque mágico de rango, la criatura objetivo recibe <b>2d8 + 1d6</b> de daño.\nElegí uno de los <b>d8</b>, ese dado determina el tipo del daño. Si en <i>ambos d8</i> salió el <i>mismo número</i>, la energía caótica salta del objetivo a otro que vos elijas a <b>30 pies</b> de el. Realizá otro ataque magico de rango, otra tirada de daño, este puede volver a saltar a otro objetivo.\nUna criatura puede ser dañada por este hechizo una vez por casteo.\n\nEn niveles superiores: Usando un spell slot de nivel 2 o mayor, cada objetivo recibe <b>1d6</b> extra de daño por cada slot por arriba de 1. ",
 		"school": "Evocation",
 		"level": "1"
 	},
@@ -63,7 +63,7 @@
 		"components": "S, M",
 		"material": "Un poco de lana",
 		"duration": "1 minuto",
-		"text": "Creas un sonido o una imagen, el volumen del sonido puede variar de un susurro a un grito, puede ser tu voz, la de otro, un rugido de un león, tambores, o cualquier otro sonido que elijas. Puede ser un sonido constante, o que vayan apareciendo en distintos momentos, dentro de la duración del hechizo.\nSi creas una imagen de un objeto, puede ser algo como una silla, pisadas de barro, un pequeño cofre, pero no puede ser mas grande que un cubo de 5 pies. La imagen no puede crear sonido, luz, olor, o cualquier otro efecto sensorial. Las interacciones fisicas con la imagen la revelan como una ilusión, porque las cosas la atraviezan.\nSi una criatura usa una acción para examinar el sonido o imagen, pueden determinar que es una ilusión pasando una tirada de investigación vs tu spell save DC. En caso de descubrir que es una ilusión, esta se termina para esa criatura.",
+		"text": "Creas un sonido o una imagen. El volumen del sonido puede variar de un susurro a un grito, puede ser una voz, un rugido, tambores, o cualquier otro sonido. Puede ser un sonido constante o intermitente.\nCreas una imagen de un objeto, puede ser algo como una silla, pisadas de barro, pero no puede ser mas grande que un cubo de 5 pies. La imagen no puede crear sonido, luz, olor, o cualquier otro efecto sensorial. Las interacciones fisicas con la imagen la revelan como una ilusión, porque las cosas la atraviezan.\nSi una criatura usa una <b>acción</b> para examinar el sonido o imagen, pueden determinar que es una ilusión pasando una <i>tirada de <b>Investigación</b> vs tu spell save DC</i>. En caso de descubrir que es una ilusión, esta se termina para esa criatura.",
 		"school": "Illusion",
 		"level": "Cantrip"
 	},
@@ -74,7 +74,7 @@
 		"components": "V, S, M",
 		"material": "Un poco de fósforo, o una luciérnaga",
 		"duration": "Concentración, 1 minuto",
-		"text": "Creas hasta cuatro luces con forma de antorcha, orbes o lamparas que flotan en el aire. También podes combinar las cuatro luces en una forma brillante que se parezca vagamente a un humanoide de tamaño medio. Emiten luz tenue en un radio de 10 pies\n\nPodes mover las luces hasta 60 pies como una acción bonus, pero las luces tienen que estar a 20 pies la una de la otra.",
+		"text": "Creas hasta <b>cuatro</b> luces con forma de antorcha, orbes o lamparas que <i>flotan en el aire</i>. También podes combinar las cuatro luces en una forma brillante que se parezca vagamente a un humanoide de tamaño medio. Emiten luz tenue en un radio de <b>10 pies</b>.\n\nPodes mover las luces hasta <b>60 pies</b> como una <b>acción bonus</b>, pero las luces tienen que estar a <b>20 pies</b> la una de la otra.",
 		"school": "Evocation",
 		"level": "Cantrip"
 	},
